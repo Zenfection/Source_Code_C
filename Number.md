@@ -56,12 +56,25 @@ int main(int argc, char const *argv[]){
 ### 3.Nhân tố của 1 số  (Factorial of a Number)
 
 ```c
-
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+	int n;
+	long fact=1;
+	printf("Enter number : ");
+	scanf("%d",&n);
+	for (int i = 1; i <= n; i++){
+		fact*=i;
+	}
+	printf("Factorial of %d is %ld",n,fact);
+	return 0;
+}
 ```
 
 ---
 
 ### 4.Số Armstrong (Armstrong Number)
+
+
 
 ---
 
