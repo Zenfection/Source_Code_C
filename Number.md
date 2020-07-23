@@ -26,6 +26,9 @@ int main(int argc, char const *argv[]){
 | ----- | --------------------- |
 | 6     | 6 is a perfect number |
 
+| [Run as](https://repl.it/@Zenfection/perfect-number) |
+| ---------------------------------------------------- |
+
 ---
 
 ### 2.Dãy Fibonacci (Fibonacci Series)
@@ -143,9 +146,9 @@ int main(int argc, char const *argv[]){
 
 ---
 
-### 4.Tìm số chẳn hoặc lẻ (Find Even or Odd number)
+### 4.Tìm số chẵn hoặc lẻ (Find Even or Odd number)
 
-Số chẳn là số chia hết cho 2, còn số lẻ thì không
+Số chẵn là số chia hết cho 2, còn số lẻ thì không
 
 ```c
 #include <stdio.h>
@@ -169,7 +172,7 @@ int main(int argc, char const *argv[]){
 
 ### 5. Ước chung lớn nhất và bội chung nhỏ nhất (HCF & LCM)
 
-HCF : (ước hcung lớn nhất): Là số nguyên lớn nhất là ước chung của a và b
+HCF : (ước chung lớn nhất): Là số nguyên lớn nhất là ước chung của a và b
 
 LCM : (bội chung nhỏ nhất): là số nguyên nhỏ nhất chia hết cho cả a và b
 
