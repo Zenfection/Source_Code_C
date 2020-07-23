@@ -26,8 +26,8 @@ int main(int argc, char const *argv[]){
 | ----- | --------------------- |
 | 6     | 6 is a perfect number |
 
-| [Run as](https://repl.it/@Zenfection/perfect-number) |
-| ---------------------------------------------------- |
+| [Chạy thử](https://repl.it/@Zenfection/perfect-number) |
+| ------------------------------------------------------ |
 
 ---
 
@@ -61,6 +61,9 @@ int main(int argc, char const *argv[]){
 | Input | Output        |
 | ----- | ------------- |
 | 5     | 0 1 1 2 3 5 8 |
+
+| [Chạy thử](https://repl.it/join/xvvjdxat-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -279,7 +282,227 @@ int main(int argc, char const *argv[]){
 
 ---
 
-### 9.
+### 9. Tổng các chữ số của 1 số sử dụng Đệ quy (Sum Digits of a number using recursion)
+
+```c
+#include <stdio.h>
+int sum_digits(int n);
+int main(int argc, char const *argv[]){
+	int n;
+    printf("Enter an integer : ");
+    scanf("%d",&n);
+    printf("Sum digits of %d is %d",n,sum_digits(n));
+	return 0;
+}
+int sum_digits(int n){
+	static int sum=0;
+	if(n==0)
+		return 0;
+	sum=(n%10)+sum_digits(n/10);
+	return sum;
+}
+```
+
+| Input | Output |
+| ----- | ------ |
+| 123   | 6      |
+
+---
+
+### 10. In n số nguyên tố đầu tiên (Print Primes till 'n')
+
+Số nguyên tố là số chia hết cho 1 và chính nó => bắt đầu từ 2
+
+```c
+#include <stdio.h>
+#include <math.h>
+int check_prime(int n);
+int main(int argc, char const *argv[]){
+	int n;
+	printf("Enter number of prime numbers : ");
+	scanf("%d",&n);
+    int count=0;
+    int i=2;
+    printf("Frist %d prime numbers are : ",n);
+    while(count < n){
+    	if(check_prime(i)){
+    		printf("%d ",i);
+    		count++;
+    	}
+    	i++;
+    }
+	return 0;
+}
+int check_prime(int n){
+	if(n<2)
+		return 0;
+	else{
+		for (int i = 2; i <= sqrt(n); i++)
+			if(n%i==0)
+				return 0;
+	}
+	return 1;
+}
+```
+
+| Input | Output       |
+| ----- | ------------ |
+| 6     | 2 3 5 7 9 11 |
+
+---
+
+### 11. Thêm n số và tính tổng nó (Add 'n' numbers and Sum)
+
+```c
+
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+	int n;
+	int sum=0;
+	printf("Enter an integer you want add : ");
+	scanf("%d",&n);
+	printf("Enter %d integers number : ",n);
+	for (int i = 1; i <= n; i++){
+		int value;
+		scanf("%d",&value);
+		sum+=value;
+	}
+	printf("Sum of entered number =  %d",sum);
+	return 0;
+}
+```
+
+| Input        | Output |
+| ------------ | ------ |
+| 4<br>1 2 3 4 | 10     |
+
+---
+
+### 12.Thêm n số và tính tổng nó bằng Mảng (Add 'n' numbers and Sum using Array)
+
+```c
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+	int n;
+	int sum=0;
+	printf("Enter an integer you want add : ");
+	scanf("%d",&n);
+	int M[n];
+	printf("Enter %d integers number : ",n);
+	for (int i = 0; i < n; i++){
+		scanf("%d",&M[i]);
+		sum+=M[i];
+	}
+	printf("Sum of entered numbers = %d",sum);
+	return 0;
+}
+```
+
+| Input        | Output |
+| ------------ | ------ |
+| 4<br>5 6 7 8 | 26     |
+
+---
+
+### 13. Kiểm tra số nguyên tố (Check prime number)
+
+```c
+#include <stdio.h>
+#include <math.h>
+int check_prime(int n);
+int main(int argc, char const *argv[]){
+	int n;
+	printf("Enter an integer you want check : ");
+	scanf("%d",&n);
+	if(check_prime(n))
+		printf("%d is a prime number",n);
+	else
+		printf("%d is not a prime number",n);
+	return 0;
+}
+int check_prime(int n){
+	if(n<2) return 0;
+	else{
+		for (int i = 2; i <= sqrt(n); i++){
+			if(n%i==0)
+				return 0;
+		}
+	}
+	return 1;
+}
+```
+
+| Input | Output              |
+| ----- | ------------------- |
+| 7     | 7 is a prime number |
+
+---
+
+### 14. Kiểm tra số đối xứng (Check Palinedrome)
+
+**Palindrome** là số mà viết ngược hay xuôi vẫn là nó, hiểu là **số đối xứng** cũng được
+
+```c
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+	int n,temp;
+	int reserve=0;
+	printf("Enter an integer you want check : ");
+	scanf("%d",&n);
+	temp=n;
+	while(temp!=0) {
+	    reserve*=10;
+	    reserve+=(temp%10);
+	    temp/=10;
+	}
+	if(reserve==n)
+		printf("%d is a palindrome number",n);
+	else
+		printf("%d is not a palindrome number",n);
+	return 0;
+}
+```
+
+| Input | Output                       |
+| ----- | ---------------------------- |
+| 12321 | 12321 is a palindrone number |
+
+---
+
+### 15.
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+
+---
+
+### 16.
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+
+---
+
+### 17.
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+
+---
+
+### 18.
 
 ```c
 
@@ -291,7 +514,19 @@ int main(int argc, char const *argv[]){
 
 ---
 
-### 10.
+### 19.
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+### 20.
 
 ```c
 
