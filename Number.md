@@ -22,10 +22,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input | Output                     |
-| ----- | -------------------------- |
-| 6     | 6 is a perfect number      |
-| 10    | 10 is not a perfect number |
+| Input | Output                |
+| ----- | --------------------- |
+| 6     | 6 is a perfect number |
 
 ---
 
@@ -112,14 +111,35 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input | Output                         |
-| ----- | ------------------------------ |
-| 153   | 153 is an Armstrong number     |
-| 160   | 160 is not an Armstrong number |
+| Input | Output                     |
+| ----- | -------------------------- |
+| 153   | 153 is an Armstrong number |
 
 ---
 
-### 5.Đảo ngược của 1 số
+### 5.Đảo ngược của 1 số (Reverse of a number)
+
+```c
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+	int n,t;
+	int reverse=0;
+	printf("Enter number : ");
+	scanf("%d",&n);
+	t=n;
+	while(t!=0) {
+	    reverse*=10;
+	    reverse+=(t%10);
+	    t/=10;
+	}
+	printf("Reverse of %d is = %d",n,reverse);
+	return 0;
+}
+```
+
+| Input | Output |
+| ----- | ------ |
+| 12345 | 54321  |
 
 ---
 
