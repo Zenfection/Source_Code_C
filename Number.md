@@ -94,7 +94,7 @@ int main(int argc, char const *argv[]){
 
 **Số tự mãn** cũng được gọi là **số tuyệt hảo bất biến**, là 1 số mà có tổng các chữ số mũ n (n≥2) bằng chính nó.
 
-**Ví dụ**: ![](https://latex.codecogs.com/gif.latex?3%5E3&plus;7%5E3&plus;1%5E3%3D371)
+**Ví dụ**: <img title="" src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cbg_white%203%5E3+7%5E3+1%5E3%3D371" alt="" width="163">
 
 ```c
 #include <stdio.h>
@@ -768,9 +768,9 @@ int check_armtrong(int n){
 
 **Ví dụ:**
 
-<img title="" src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cfrac%7B%5Cphi%2830%29%7D%7B30%7D%3D%5Cfrac%7B1+2+3+5+6+10+15+30%7D%7B30%7D%3D%5Cfrac%7B12%7D%7B5%7D" alt="" width="401">
+<img title="" src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Cfrac%7B%5Cphi%2830%29%7D%7B30%7D%3D%5Cfrac%7B1&plus;2&plus;3&plus;5&plus;6&plus;10&plus;15&plus;30%7D%7B30%7D%3D%5Cfrac%7B12%7D%7B5%7D" alt="" width="401">
 
-<img title="" src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cfrac%7B%5Cphi%28140%29%7D%7B140%7D%3D%5Cfrac%7B1+2+4+5+7+10+14+20+28+35+70+140%7D%7B140%7D%3D%5Cfrac%7B12%7D%7B5%7D" alt="" width="550">
+<img title="" src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Cfrac%7B%5Cphi%28140%29%7D%7B140%7D%3D%5Cfrac%7B1&plus;2&plus;4&plus;5&plus;7&plus;10&plus;14&plus;20&plus;28&plus;35&plus;70&plus;140%7D%7B140%7D%3D%5Cfrac%7B12%7D%7B5%7D" alt="" width="550">
 
 ```c
 
