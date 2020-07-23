@@ -94,11 +94,16 @@ int main(int argc, char const *argv[]){
 
 **Số tự mãn** cũng được gọi là **số tuyệt hảo bất biến**, là 1 số mà có tổng các chữ số mũ n (n≥2) bằng chính nó.
 
-Ví dụ: pow(3,3)+pow(7,3)+pow(1,3)=371
+**Ví dụ**:
+
+$$
+3^3+7^3+1^3=371
+$$
 
 ```c
 #include <stdio.h>
 #include <math.h>
+int count_digit(int n);
 int main(int argc, char const *argv[]){
     int a,n,b=0,t;
     printf("Enter an integer : ");
@@ -106,14 +111,22 @@ int main(int argc, char const *argv[]){
     t=n;
     while(t>0) {
         a=t%10;
-        b+=pow(a,3);
-        t=t/10;
+        b+=pow(a,count_digit(n));
+        t/=10;
     }
     if (b==n)
         printf("%d is an Armstrong number",n);
     else
         printf("%d is not an Armstrong number",n);
     return 0;
+}
+int count_digit(int n){
+    int count=0;
+    while(n!=0) {
+        n/=10;
+        count++;
+    }
+    return count;
 }
 ```
 
@@ -542,9 +555,13 @@ int main(int argc, char const *argv[]){
 
 ### 18.Số neon (Neon number)
 
-Số neon là số mà tổng các chữ sổ trong bình phương của nó bằng chính nó:
+**Số neon** là số mà **tổng các chữ số trong bình phương của nó bằng chính nó**:
 
-Ví dụ : pow(9,2)=81, 8+1=9
+Ví dụ:
+
+$$
+9^2=81 , 8+1=9 
+$$
 
 ```c
 #include <stdio.h>
@@ -646,5 +663,195 @@ int main(int argc, char const *argv[]){
 | Input | Output |
 | ----- | ------ |
 | 5 8 4 | 8      |
+
+---
+
+### 23. Hoán vị 2 số sử dụng con trỏ (Swap two number using Pointer)
+
+```c
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+    int a,b;
+    printf("Enter number 1 : ");
+    scanf("%d",&a);
+    printf("Enter number 2 : ");
+    scanf("%d",&b);
+    int *ptr1,*ptr2,*temp;
+    ptr1=&a;
+    ptr2=&b;
+    temp=ptr1;
+    ptr1=ptr2;
+    ptr2=temp;
+    printf("Number 1 = %d\n",*ptr1);
+    printf("Number 2 = %d\n",*ptr2);
+    return 0;
+}
+```
+
+| Input | Output |
+| ----- | ------ |
+| 3 5   | 5 3    |
+
+---
+
+### 24. Tính tổng n số (Sum of n number)
+
+```c
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+    int n,sum=0;
+    printf("Enter an integer you want add : ");
+    scanf("%d",&n);
+    int M[n];
+    printf("Enter %d numbers : ",n);
+    for (int i = 0; i < n; i++){
+        scanf("%d",&M[i]);
+        sum+=M[i];
+    }
+    printf("Sum of %d numbers are = %d",n,sum);
+    return 0;
+}
+```
+
+| Input           | Output |
+| --------------- | ------ |
+| 5 <br>1 6 7 4 2 | 20     |
+
+---
+
+### 25. In Armtrong từ tới n (Armtrong numbers till 'n')
+
+```c
+#include <stdio.h>
+#include <math.h>
+int count_digit(int n);
+int check_armtrong(int n);
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter an integer : ");
+    scanf("%d",&n);
+    printf("Armtrong numbers from 1 to %d : 1 ",n);
+    for(int i=100;i<=n;i++){
+        if(check_armtrong(i))
+            printf("%d ",i);
+    }
+    return 0;
+}
+int count_digit(int n){
+    int count=0;
+    while(n!=0) {
+        n/=10;
+        count++;
+    }
+    return count;
+}
+int check_armtrong(int n){
+    int a,b=0,t;
+    t=n;
+    int count=count_digit(n);
+    if(count<2)
+        return 0;
+    else{
+    while(t>0){
+        a=t%10;
+        b+=pow(a,count_digit(n));
+        t/=10;
+    }
+}
+    if(b==n)
+        return 1;
+    return 0;
+}
+```
+
+| Input | Output            |
+| ----- | ----------------- |
+| 500   | 1 153 370 371 407 |
+
+---
+
+### 26. Kiểm tra 2 số  là số thân thiện (Check whether two numbers are Amicable number )
+
+**Số thân thiện** là số **2 hay nhiều số tự nhiên** nếu chúng có chung tỷ lệ giữa tổng các ước số của một số chia cho chính số đó
+
+**Ví dụ:**
+
+$$
+\frac{∂(30)}{30}=\frac{1+2+3+5+6+10+15+30}{30}=\frac{12}{5}
+$$
+
+$$
+\frac{∂(140)}{140}=\frac{1+2+4+5+7+10+14+20+28+35+70+140}{140}=\frac{12}{5}
+$$
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+
+
+### 27.
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+### 28.
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+### 29.
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+### 30.
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+### 31.
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
 
 ---
