@@ -2,7 +2,7 @@
 
 Số hoàn thiện là một số nguyên dương mà tổng các ước nguyên dương chính thức của nó bằng chính nó
 
-$$3^2$$
+$3^2$
 
 ```c
 #include <stdio.h>
