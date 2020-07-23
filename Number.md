@@ -762,7 +762,7 @@ int check_armtrong(int n){
 
 ---
 
-### 26. Kiểm tra 2 số  là số thân thiện (Check whether two numbers are Amicable number )
+### 26. Kiểm tra 2 số  là số thân thiện (Check whether two numbers are Friendly number )
 
 **Số thân thiện** là số **2 hay nhiều số tự nhiên** nếu chúng có chung tỷ lệ giữa tổng các ước số của một số chia cho chính số đó
 
@@ -773,12 +773,36 @@ int check_armtrong(int n){
 <img title="" src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cbg_white%20%5Cfrac%7B%5Cphi%28140%29%7D%7B140%7D%3D%5Cfrac%7B1&plus;2&plus;4&plus;5&plus;7&plus;10&plus;14&plus;20&plus;28&plus;35&plus;70&plus;140%7D%7B140%7D%3D%5Cfrac%7B12%7D%7B5%7D" alt="" width="550">
 
 ```c
-
+#include <stdio.h>
+double medium(int n);
+int main(int argc, char const *argv[]){
+    int num1,num2;
+    printf("Enter number 1 : ");
+    scanf("%d",&num1);
+    printf("Enter number 2: ");
+    scanf("%d",&num2);
+    printf("%lf",medium(num1));
+    printf("%lf",medium(num2));
+    if(medium(num1)==medium(num2))
+        printf("%d and %d are Friendly number",num1,num2);
+    else
+        printf("%d and %d not are Friendly number",num1,num2);
+    return 0;
+}
+double medium(int n){
+    double sum=0;
+    for (int i = 1; i <= n; i++){
+        if(n%i==0){
+            sum+=i;
+        }
+    }
+    return sum/n;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input  | Output                         |
+| ------ | ------------------------------ |
+| 30 140 | 30 and 140 are Friendly number |
 
 ---
 
