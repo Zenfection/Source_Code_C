@@ -94,7 +94,7 @@ int main(int argc, char const *argv[]){
 
 **Số tự mãn** cũng được gọi là **số tuyệt hảo bất biến**, là 1 số mà có tổng các chữ số mũ n (n≥2) bằng chính nó.
 
-**Ví dụ**: ![](https://latex.codecogs.com/gif.latex?3%5E3&plus;7%5E3&plus;1%5E3%3D371)
+**Ví dụ**: ![](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cbg_white%20%5Clarge%203%5E3&plus;7%5E3&plus;1%5E3%3D371)
 
 ```c
 #include <stdio.h>
