@@ -903,23 +903,34 @@ int check_prime(int n){
 ### 30. Số lớn nhất trong n số (Largest number of 'n' number)
 
 ```c
-
+#include <stdio.h>
+void input_array(int M[],int n);
+int max_array(int M[],int n);
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter the range = ");
+    scanf("%d",&n);
+    int M[n];
+    input_array(M,n);
+    printf("Largest of %d numbers are : %d",n,max_array(M,n));
+    return 0;
+}
+void input_array(int M[],int n){
+    printf("Enter %d numbers : ",n);
+    for (int i = 0; i < n; i++){
+        scanf("%d",&M[i]);
+    }
+}
+int max_array(int M[],int n){
+    int max=M[0];
+    for (int i = 1; i < n; i++){
+        if(max<M[i])
+            max=M[i];
+    }
+    return max;
+}
 ```
 
 | Input             | Output |
 | ----------------- | ------ |
 | 5<br>12 56 8 2 34 | 56     |
-
----
-
-### 31.
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
