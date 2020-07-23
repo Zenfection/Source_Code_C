@@ -774,22 +774,20 @@ int check_armtrong(int n){
 
 ```c
 #include <stdio.h>
-double medium(int n);
+double friendly(int n);
 int main(int argc, char const *argv[]){
     int num1,num2;
     printf("Enter number 1 : ");
     scanf("%d",&num1);
     printf("Enter number 2: ");
     scanf("%d",&num2);
-    printf("%lf",medium(num1));
-    printf("%lf",medium(num2));
-    if(medium(num1)==medium(num2))
+    if(friendly(num1)==friendly(num2))
         printf("%d and %d are Friendly number",num1,num2);
     else
         printf("%d and %d not are Friendly number",num1,num2);
     return 0;
 }
-double medium(int n){
+double friendly(int n){
     double sum=0;
     for (int i = 1; i <= n; i++){
         if(n%i==0){
@@ -806,15 +804,15 @@ double medium(int n){
 
 ---
 
-### 27.
+### 27. Kiểm tra 2 số là số bạn bè (Check whether two numbers are Amicable number)
 
 ```c
 
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input   | Output                          |
+| ------- | ------------------------------- |
+| 220 284 | 220 and 284 are Amicable number |
 
 ---
 
