@@ -5,7 +5,7 @@ Số hoàn thiện là một số nguyên dương mà tổng các ước nguyên
 ```c
 #include <stdio.h>
 int main(int argc, char const *argv[]){
-    int n
+    int n;
     int sum=0;
     printf("Enter number = ");
     scanf("%d",&n);
@@ -22,6 +22,11 @@ int main(int argc, char const *argv[]){
 }
 ```
 
+| Input | Output                     |
+| ----- | -------------------------- |
+| 6     | 6 is a perfect number      |
+| 10    | 10 is not a perfect number |
+
 ---
 
 ### 2.Dãy Fibonacci (Fibonacci Series)
@@ -35,46 +40,82 @@ Dãy Fibonacci là **dãy vô hạn** các **số tự nhiên** bắt đầu b�
 ```c
 #include <stdio.h>
 int main(int argc, char const *argv[]){
-	int a,b,c,n;
-	a=0;
-	b=1;
-	printf("Enter length of the range : ");
-	scanf("%d",&n);
-	printf("Fibonacci Series : %d %d ",a,b);
-	for (int i = 0; i < n; i++){
-		c=a+b;
-		a=b;
-		b=c;
-		printf("%d ",c);
-	}
-	return 0;
+    int a,b,c,n;
+    a=0;
+    b=1;
+    printf("Enter length of the range : ");
+    scanf("%d",&n);
+    printf("Fibonacci Series : %d %d ",a,b);
+    for (int i = 0; i < n; i++){
+        c=a+b;
+        a=b;
+        b=c;
+        printf("%d ",c);
+    }
+    return 0;
 }
 ```
 
+| Input | Output        |
+| ----- | ------------- |
+| 5     | 0 1 1 2 3 5 8 |
+
 ---
 
-### 3.Nhân tố của 1 số  (Factorial of a Number)
+### 3.Giai thừa của 1 số  (Factorial of a Number)
 
 ```c
 #include <stdio.h>
 int main(int argc, char const *argv[]){
-	int n;
-	long fact=1;
-	printf("Enter number : ");
+    int n;
+    long fact=1;
+    printf("Enter number : ");
+    scanf("%d",&n);
+    for (int i = 1; i <= n; i++){
+        fact*=i;
+    }
+    printf("Factorial of %d is %ld",n,fact);
+    return 0;
+}
+```
+
+| Input | Output |
+| ----- | ------ |
+| 5     | 120    |
+
+---
+
+### 4.Số tự mãn (Armstrong Number)
+
+**Số tự mãn** cũng được gọi là **số tuyệt hảo bất biến**, là 1 số mà có tổng các chữ số mũ n (n≥2) bằng chính nó.
+
+Ví dụ: pow(3,3)+pow(7,3)+pow(1,3)=371
+
+```c
+#include <stdio.h>
+#include <math.h>
+int main(int argc, char const *argv[]){
+	int a,n,b=0,t;
+	printf("Enter Number : ");
 	scanf("%d",&n);
-	for (int i = 1; i <= n; i++){
-		fact*=i;
+	t=n;
+	while(t>0) {
+	    a=t%10;
+	    b+=pow(a,3);
+	    t=t/10;
 	}
-	printf("Factorial of %d is %ld",n,fact);
+	if (b==n)
+		printf("%d is an Armstrong number",n);
+	else
+		printf("%d is not an Armstrong number",n);
 	return 0;
 }
 ```
 
----
-
-### 4.Số Armstrong (Armstrong Number)
-
-
+| Input | Output                         |
+| ----- | ------------------------------ |
+| 153   | 153 is an Armstrong number     |
+| 160   | 160 is not an Armstrong number |
 
 ---
 
