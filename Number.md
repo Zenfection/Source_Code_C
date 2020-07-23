@@ -100,20 +100,20 @@ Ví dụ: pow(3,3)+pow(7,3)+pow(1,3)=371
 #include <stdio.h>
 #include <math.h>
 int main(int argc, char const *argv[]){
-	int a,n,b=0,t;
-	printf("Enter an integer : ");
-	scanf("%d",&n);
-	t=n;
-	while(t>0) {
-	    a=t%10;
-	    b+=pow(a,3);
-	    t=t/10;
-	}
-	if (b==n)
-		printf("%d is an Armstrong number",n);
-	else
-		printf("%d is not an Armstrong number",n);
-	return 0;
+    int a,n,b=0,t;
+    printf("Enter an integer : ");
+    scanf("%d",&n);
+    t=n;
+    while(t>0) {
+        a=t%10;
+        b+=pow(a,3);
+        t=t/10;
+    }
+    if (b==n)
+        printf("%d is an Armstrong number",n);
+    else
+        printf("%d is not an Armstrong number",n);
+    return 0;
 }
 ```
 
@@ -128,18 +128,18 @@ int main(int argc, char const *argv[]){
 ```c
 #include <stdio.h>
 int main(int argc, char const *argv[]){
-	int n,t;
-	int reverse=0;
-	printf("Enter an integer : ");
-	scanf("%d",&n);
-	t=n;
-	while(t!=0) {
-	    reverse*=10;
-	    reverse+=(t%10);
-	    t/=10;
-	}
-	printf("Reverse of %d is = %d",n,reverse);
-	return 0;
+    int n,t;
+    int reverse=0;
+    printf("Enter an integer : ");
+    scanf("%d",&n);
+    t=n;
+    while(t!=0) {
+        reverse*=10;
+        reverse+=(t%10);
+        t/=10;
+    }
+    printf("Reverse of %d is = %d",n,reverse);
+    return 0;
 }
 ```
 
@@ -156,14 +156,14 @@ Số chẵn là số chia hết cho 2, còn số lẻ thì không
 ```c
 #include <stdio.h>
 int main(int argc, char const *argv[]){
-	int n;
-	printf("Enter number = ");
-	scanf("%d",&n);
-	if(n%2==0)
-		printf("%d is Even number",n);
-	else
-		printf("%d is Odd number",n);
-	return 0;
+    int n;
+    printf("Enter number = ");
+    scanf("%d",&n);
+    if(n%2==0)
+        printf("%d is Even number",n);
+    else
+        printf("%d is Odd number",n);
+    return 0;
 }
 ```
 
@@ -182,11 +182,11 @@ LCM : (bội chung nhỏ nhất): là số nguyên nhỏ nhất chia hết cho c
 ```c
 #include <stdio.h>
 int main(int argc, char const *argv[]){
-	int num1,num2,a,b,t,gcd,lcm;
-	printf("Enter number 1 : ");
-	scanf("%d",&num1);
-	printf("Enter number 2 : ");
-	scanf("%d",&num2);
+    int num1,num2,a,b,t,gcd,lcm;
+    printf("Enter number 1 : ");
+    scanf("%d",&num1);
+    printf("Enter number 2 : ");
+    scanf("%d",&num2);
     a=num1;
     b=num2;
     while(b!=0) {
@@ -198,7 +198,7 @@ int main(int argc, char const *argv[]){
     lcm = (a*b)/gcd;
     printf("Greatest common divisor of %d and %d = %d\n",num1,num2,gcd);
     printf("Least common multiple of %d and %d = %d\n",num1,num2,lcm);
-	return 0;
+    return 0;
 }
 ```
 
@@ -213,17 +213,17 @@ int main(int argc, char const *argv[]){
 ```c
 #include <stdio.h>
 int main(int argc, char const *argv[]){
-	int a,b,temp;
-	printf("Enter number 1 : ");
-	scanf("%d",&a);
-	printf("Enter number 2 : ");
-	scanf("%d",&b);
+    int a,b,temp;
+    printf("Enter number 1 : ");
+    scanf("%d",&a);
+    printf("Enter number 2 : ");
+    scanf("%d",&b);
     temp=a;
     a = b;
     b = temp;
     printf("Number 1 = %d\n",a);
     printf("Number 2 = %d\n",b);
-	return 0;
+    return 0;
 }
 ```
 
@@ -240,14 +240,14 @@ có 5 chữ nguyên âm là : anh (a), ốm (o), em (e), ú (u), ì (i) và cả
 ```c
 #include <stdio.h>
 int main(int argc, char const *argv[]){
-	char ch;
-	printf("Enter a character : ");
-	scanf("%c",&ch);
-	if (ch=='a'||ch=='A'||ch=='O'||ch=='o'||ch=='E'||ch=='e'||ch=='U'||ch=='u'||ch=='I'||ch=='i')
-		printf("%c is a Vowel.\n",ch);
-	else	
-		printf("%c is not a Vowel.\n",ch);	
-	return 0;
+    char ch;
+    printf("Enter a character : ");
+    scanf("%c",&ch);
+    if (ch=='a'||ch=='A'||ch=='O'||ch=='o'||ch=='E'||ch=='e'||ch=='U'||ch=='u'||ch=='I'||ch=='i')
+        printf("%c is a Vowel.\n",ch);
+    else    
+        printf("%c is not a Vowel.\n",ch);    
+    return 0;
 }
 ```
 
@@ -262,17 +262,17 @@ int main(int argc, char const *argv[]){
 ```c
 #include <stdio.h>
 int main(int argc, char const *argv[]){
-	int n,t;
-	int sum=0;
-	printf("Enter an integer : ");
-	scanf("%d",&n);
-	t=n;
-	while(t!=0) {
-	    sum+=(t%10);
-	    t/=10;
-	}
-	printf("Sum of digits of %d is %d",n,sum);
-	return 0;
+    int n,t;
+    int sum=0;
+    printf("Enter an integer : ");
+    scanf("%d",&n);
+    t=n;
+    while(t!=0) {
+        sum+=(t%10);
+        t/=10;
+    }
+    printf("Sum of digits of %d is %d",n,sum);
+    return 0;
 }
 ```
 
@@ -288,18 +288,18 @@ int main(int argc, char const *argv[]){
 #include <stdio.h>
 int sum_digits(int n);
 int main(int argc, char const *argv[]){
-	int n;
+    int n;
     printf("Enter an integer : ");
     scanf("%d",&n);
     printf("Sum digits of %d is %d",n,sum_digits(n));
-	return 0;
+    return 0;
 }
 int sum_digits(int n){
-	static int sum=0;
-	if(n==0)
-		return 0;
-	sum=(n%10)+sum_digits(n/10);
-	return sum;
+    static int sum=0;
+    if(n==0)
+        return 0;
+    sum=(n%10)+sum_digits(n/10);
+    return sum;
 }
 ```
 
@@ -318,30 +318,30 @@ Số nguyên tố là số chia hết cho 1 và chính nó => bắt đầu từ 
 #include <math.h>
 int check_prime(int n);
 int main(int argc, char const *argv[]){
-	int n;
-	printf("Enter number of prime numbers : ");
-	scanf("%d",&n);
+    int n;
+    printf("Enter number of prime numbers : ");
+    scanf("%d",&n);
     int count=0;
     int i=2;
     printf("Frist %d prime numbers are : ",n);
     while(count < n){
-    	if(check_prime(i)){
-    		printf("%d ",i);
-    		count++;
-    	}
-    	i++;
+        if(check_prime(i)){
+            printf("%d ",i);
+            count++;
+        }
+        i++;
     }
-	return 0;
+    return 0;
 }
 int check_prime(int n){
-	if(n<2)
-		return 0;
-	else{
-		for (int i = 2; i <= sqrt(n); i++)
-			if(n%i==0)
-				return 0;
-	}
-	return 1;
+    if(n<2)
+        return 0;
+    else{
+        for (int i = 2; i <= sqrt(n); i++)
+            if(n%i==0)
+                return 0;
+    }
+    return 1;
 }
 ```
 
@@ -354,21 +354,20 @@ int check_prime(int n){
 ### 11. Thêm n số và tính tổng nó (Add 'n' numbers and Sum)
 
 ```c
-
 #include <stdio.h>
 int main(int argc, char const *argv[]){
-	int n;
-	int sum=0;
-	printf("Enter an integer you want add : ");
-	scanf("%d",&n);
-	printf("Enter %d integers number : ",n);
-	for (int i = 1; i <= n; i++){
-		int value;
-		scanf("%d",&value);
-		sum+=value;
-	}
-	printf("Sum of entered number =  %d",sum);
-	return 0;
+    int n;
+    int sum=0;
+    printf("Enter an integer you want add : ");
+    scanf("%d",&n);
+    printf("Enter %d integers number : ",n);
+    for (int i = 1; i <= n; i++){
+        int value;
+        scanf("%d",&value);
+        sum+=value;
+    }
+    printf("Sum of entered number =  %d",sum);
+    return 0;
 }
 ```
 
@@ -383,18 +382,18 @@ int main(int argc, char const *argv[]){
 ```c
 #include <stdio.h>
 int main(int argc, char const *argv[]){
-	int n;
-	int sum=0;
-	printf("Enter an integer you want add : ");
-	scanf("%d",&n);
-	int M[n];
-	printf("Enter %d integers number : ",n);
-	for (int i = 0; i < n; i++){
-		scanf("%d",&M[i]);
-		sum+=M[i];
-	}
-	printf("Sum of entered numbers = %d",sum);
-	return 0;
+    int n;
+    int sum=0;
+    printf("Enter an integer you want add : ");
+    scanf("%d",&n);
+    int M[n];
+    printf("Enter %d integers number : ",n);
+    for (int i = 0; i < n; i++){
+        scanf("%d",&M[i]);
+        sum+=M[i];
+    }
+    printf("Sum of entered numbers = %d",sum);
+    return 0;
 }
 ```
 
@@ -411,24 +410,24 @@ int main(int argc, char const *argv[]){
 #include <math.h>
 int check_prime(int n);
 int main(int argc, char const *argv[]){
-	int n;
-	printf("Enter an integer you want check : ");
-	scanf("%d",&n);
-	if(check_prime(n))
-		printf("%d is a prime number",n);
-	else
-		printf("%d is not a prime number",n);
-	return 0;
+    int n;
+    printf("Enter an integer you want check : ");
+    scanf("%d",&n);
+    if(check_prime(n))
+        printf("%d is a prime number",n);
+    else
+        printf("%d is not a prime number",n);
+    return 0;
 }
 int check_prime(int n){
-	if(n<2) return 0;
-	else{
-		for (int i = 2; i <= sqrt(n); i++){
-			if(n%i==0)
-				return 0;
-		}
-	}
-	return 1;
+    if(n<2) return 0;
+    else{
+        for (int i = 2; i <= sqrt(n); i++){
+            if(n%i==0)
+                return 0;
+        }
+    }
+    return 1;
 }
 ```
 
@@ -445,21 +444,21 @@ int check_prime(int n){
 ```c
 #include <stdio.h>
 int main(int argc, char const *argv[]){
-	int n,temp;
-	int reserve=0;
-	printf("Enter an integer you want check : ");
-	scanf("%d",&n);
-	temp=n;
-	while(temp!=0) {
-	    reserve*=10;
-	    reserve+=(temp%10);
-	    temp/=10;
-	}
-	if(reserve==n)
-		printf("%d is a palindrome number",n);
-	else
-		printf("%d is not a palindrome number",n);
-	return 0;
+    int n,temp;
+    int reserve=0;
+    printf("Enter an integer you want check : ");
+    scanf("%d",&n);
+    temp=n;
+    while(temp!=0) {
+        reserve*=10;
+        reserve+=(temp%10);
+        temp/=10;
+    }
+    if(reserve==n)
+        printf("%d is a palindrome number",n);
+    else
+        printf("%d is not a palindrome number",n);
+    return 0;
 }
 ```
 
@@ -469,40 +468,111 @@ int main(int argc, char const *argv[]){
 
 ---
 
-### 15.
+### 15. Hoán vị 2 số bằng xor (Swap two number using bitwise xor)
 
 ```c
-
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+    long a, b;
+    printf("Enter number 1 : ");
+    scanf("%ld",&a);
+    printf("Enter number 2 : ");
+    scanf("%ld",&b);
+    a^=b; 
+    b^=a; 
+    a^=b;
+    printf("Number 1 : %ld\n",a);
+    printf("Number 2 : %ld\n",b);
+    return 0;
+}
 ```
 
 | Input | Output |
 | ----- | ------ |
+| 5 3   | 3 5    |
 
 ---
 
-### 16.
+### 16. In bình phương 1 tới n (Calculate Square till 'n' number)
 
 ```c
-
+#include <stdio.h>
+#include <math.h>
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter the range : ");
+    scanf("%d",&n);
+    for (int i = 1; i <= n; i++){
+        int square=pow(i,2);
+        printf("Square of %d is %d\n",n,square);
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
+| Input | Output      |
+| ----- | ----------- |
+| 5     | 1 4 9 16 25 |
 
 ---
 
-### 17.
+### 17. Hệ số của 1 số (Factors of Number)
 
 ```c
-
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter an integer : ");
+    scanf("%d",&n);
+    printf("Factors of %d are : ",n);
+    for (int i = 1; i <= n; i++){
+        if(n%i==0){
+            printf("%d ",i);
+        }
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
+| Input | Output    |
+| ----- | --------- |
+| 26    | 1 2 13 26 |
 
 ---
 
-### 18.
+### 18.Số neon (Neon number)
+
+Số neon là số mà tổng các chữ sổ trong bình phương của nó bằng chính nó:
+
+Ví dụ : pow(9,2)=81, 8+1=9
+
+```c
+#include <stdio.h>
+#include <math.h>
+int main(int argc, char const *argv[]){
+    int n,sum=0;
+    printf("Enter number you want check : ");
+    scanf("%d",&n);
+    int square = pow(n,2);
+    while(square!=0) {
+        sum+=(square%10);
+        square/=10;
+    }
+    if(sum==n)
+        printf("%d is a neon number",n);
+    else
+        printf("%d is not a neon number",n);
+    return 0;
+}
+```
+
+| Input | Output           |
+| ----- | ---------------- |
+| 9     | 9 is neon number |
+
+---
+
+### 19. (Sine series)
 
 ```c
 
@@ -514,24 +584,67 @@ int main(int argc, char const *argv[]){
 
 ---
 
-### 19.
+### 20. In 5 số tiếp theo (Next 5 successive numbers)
 
 ```c
-
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter an integer : ");
+    scanf("%d",&n);
+    printf("Successive Numbers from %d: ",n);
+    for (int i = n+1; i <= n+5; i++){
+        printf("%d ",i);
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output     |
+| ----- | ---------- |
+| 5     | 6 7 8 9 10 |
 
 ---
 
-### 20.
+### 21. Tổng của các bình phương tới n (Sum of Squares till 'n')
 
 ```c
-
+#include <stdio.h>
+#include <math.h>
+int main(int argc, char const *argv[]){
+    int n,sum=0;
+    printf("Enter an integer : ");
+    scanf("%d",&n);
+    for (int i = 1; i <= n; i++){
+        sum+=pow(i,2);
+    }
+    printf("Sum of Squares till %d : %d",n,sum);
+    return 0;
+}
 ```
 
 | Input | Output |
 | ----- | ------ |
-|       |        |
+| 5     | 55     |
+
+---
+
+### 22. Số lớn nhất trong 3 số sử dụng toán tử ? (Largest among 3 number using ternary operator)
+
+```c
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+    int a, b, c, big;
+    printf("Enter 3 numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
+    big = (a > b && a > c ? a : b > c ? b : c);
+    printf("The biggest number is: %d", big);
+    return 0;
+}
+```
+
+| Input | Output |
+| ----- | ------ |
+| 5 8 4 | 8      |
+
+---
