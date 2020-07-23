@@ -807,7 +807,28 @@ double friendly(int n){
 ### 27. Kiểm tra 2 số là số bạn bè (Check whether two numbers are Amicable number)
 
 ```c
-
+#include <stdio.h>
+int amicable(int n);
+int main(int argc, char const *argv[]){
+    int num1,num2;
+    printf("Enter number 1 : ");
+    scanf("%d",&num1);
+    printf("Enter number 2: ");
+    scanf("%d",&num2);
+    if(amicable(num1)==num2 && amicable(num2)==num1)
+        printf("%d and %d are Amicable number",num1,num2);
+    else
+        printf("%d and %d are Amicable number",num1,num2);
+    return 0;
+}
+int amicable(int n){
+    int sum=0;
+    for(int i=1;i<=0;i++){
+        if(n%i==0)
+            sum+=i;
+    }
+    return sum;
+}
 ```
 
 | Input   | Output                          |
@@ -816,39 +837,78 @@ double friendly(int n){
 
 ---
 
-### 28.
+### 28. Hoán vị 2 số không dùng biến thứ 3 (Swap two numbers without third variable)
 
 ```c
-
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+    int x,y;
+    printf("Enter number 1 : ");
+    scanf("%d",&x);
+    printf("Enter number 2 : ");
+    scanf("%d",&y);
+    x=x+y; 
+    y=x-y;
+    x=x-y;
+    printf("Number 1 = %d\n",x);
+    printf("Number 2 = %d\n",y);
+    return 0;
+}
 ```
 
 | Input | Output |
 | ----- | ------ |
-|       |        |
+| 3 5   | 5 3    |
 
 ---
 
-### 29.
+### 29. Tổng n số nguyên tố đầu tiên (Sum of first n prime number)
 
 ```c
-
+#include <stdio.h>
+#include <math.h>
+int check_prime(int n);
+int main(int argc, char const *argv[]){
+    int n,sum=0;
+    printf("Enter the number of prime number : ");
+    scanf("%d",&n);
+    printf("First %d prime numbers are : ",n);
+    int count=0;
+    for(int i=2;n!=count;i++){
+        if(check_prime(i)){
+            printf("%d ",i);
+            sum+=i;
+            count++;
+        }
+    }
+    printf("\nSum of firse %d prime numbers = %d",n,sum);
+    return 0;
+}
+int check_prime(int n){
+    if(n<2) return 0;
+    for (int i = 2; i <= sqrt(n); i++){
+        if(n%i==0)
+            return 0;
+    }
+    return 1;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                               |
+| ----- | ------------------------------------ |
+| 10    | 2 3 5 7 11 13 17 19 23 29<br>sum=129 |
 
 ---
 
-### 30.
+### 30. Số lớn nhất trong n số (Largest number of 'n' number)
 
 ```c
 
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input             | Output |
+| ----------------- | ------ |
+| 5<br>12 56 8 2 34 | 56     |
 
 ---
 
