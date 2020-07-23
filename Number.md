@@ -94,11 +94,7 @@ int main(int argc, char const *argv[]){
 
 **Số tự mãn** cũng được gọi là **số tuyệt hảo bất biến**, là 1 số mà có tổng các chữ số mũ n (n≥2) bằng chính nó.
 
-**Ví dụ**:
-
-$$
-3^3+7^3+1^3=371
-$$
+**Ví dụ**: $3^3+7^3+1^3=371$
 
 ```c
 #include <stdio.h>
@@ -557,11 +553,7 @@ int main(int argc, char const *argv[]){
 
 **Số neon** là số mà **tổng các chữ số trong bình phương của nó bằng chính nó**:
 
-Ví dụ:
-
-$$
-9^2=81 , 8+1=9 
-$$
+Ví dụ: $9^2=81 , 8+1=9$
 
 ```c
 #include <stdio.h>
@@ -776,13 +768,9 @@ int check_armtrong(int n){
 
 **Ví dụ:**
 
-$$
-\frac{∂(30)}{30}=\frac{1+2+3+5+6+10+15+30}{30}=\frac{12}{5}
-$$
+$\frac{∂(30)}{30}=\frac{1+2+3+5+6+10+15+30}{30}=\frac{12}{5}$
 
-$$
-\frac{∂(140)}{140}=\frac{1+2+4+5+7+10+14+20+28+35+70+140}{140}=\frac{12}{5}
-$$
+$\frac{∂(140)}{140}=\frac{1+2+4+5+7+10+14+20+28+35+70+140}{140}=\frac{12}{5}$
 
 ```c
 
@@ -793,8 +781,6 @@ $$
 |       |        |
 
 ---
-
-
 
 ### 27.
 
