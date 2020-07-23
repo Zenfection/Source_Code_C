@@ -2,8 +2,6 @@
 
 Số hoàn thiện là một số nguyên dương mà tổng các ước nguyên dương chính thức của nó bằng chính nó
 
-$3^2$
-
 ```c
 #include <stdio.h>
 int main(int argc, char const *argv[]){
@@ -96,7 +94,7 @@ int main(int argc, char const *argv[]){
 
 **Số tự mãn** cũng được gọi là **số tuyệt hảo bất biến**, là 1 số mà có tổng các chữ số mũ n (n≥2) bằng chính nó.
 
-**Ví dụ**: $3^3+7^3+1^3=371$
+**Ví dụ**: ![](https://latex.codecogs.com/gif.latex?3%5E3&plus;7%5E3&plus;1%5E3%3D371)
 
 ```c
 #include <stdio.h>
