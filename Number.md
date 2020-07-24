@@ -37,7 +37,7 @@ Dãy Fibonacci là **dãy vô hạn** các **số tự nhiên** bắt đầu b�
 
 **<u>Công thức truy hồi sau đây:</u>**
 
-<img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/07/22-16-14-55-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202020-07-22%20lu%CC%81c%2016.13.20.png" title="" alt="Ảnh chụp Màn hình 2020-07-22 lúc 16.13.20.png" width="305">
+<img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/07/22-16-14-55-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202020-07-22%20lu%CC%81c%2016.13.20.png" alt="Ảnh chụp Màn hình 2020-07-22 lúc 16.13.20.png" width="376">
 
 ```c
 #include <stdio.h>
@@ -934,3 +934,288 @@ int max_array(int M[],int n){
 | Input             | Output |
 | ----------------- | ------ |
 | 5<br>12 56 8 2 34 | 56     |
+
+### 31. Trung bình của n số (Average of 'n' numbers)
+
+```c
+#include <stdio.h>
+void input_array(int M[],int n);
+double average_array(int M[],int n);
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter the range = ");
+    scanf("%d",&n);
+    int M[n];
+    input_array(M,n);
+    printf("Average of %d numbers are = %.2lf",n,average_array(M,n));
+    return 0;
+}
+void input_array(int M[],int n){
+    printf("Enter %d numbers : ",n);
+    for (int i = 0; i < n; i++){
+        scanf("%d",&M[i]);
+    }
+}
+double average_array(int M[],int n){
+    double sum=0;
+    for (int i = 0; i < n; i++){
+        sum+=M[i];
+    }
+    return sum/n;
+}
+```
+
+| Input              | Output |
+| ------------------ | ------ |
+| 5<br>12 10 53 7 39 | 24.20  |
+
+---
+
+#### 32. Ước chung lớn nhất dùng Euclid (GCD using Euclid)
+
+```c
+#include <stdio.h>
+int GCD(int a,int b);
+int main(int argc, char const *argv[]){
+    int a,b;
+    printf("Enter 2 numbers : \n");
+    scanf("%d %d",&a,&b);
+    printf("GCD = %d",GCD(a,b));
+    return 0;
+}
+int GCD(int a,int b){
+    if(b==0) return a;
+    return GCD(b,a%b);
+}
+```
+
+| Input | Output |
+| ----- | ------ |
+| 24 56 | 8      |
+
+---
+
+### 33.Tính tổng giai thừa của dãy : n/n! (Sum of factorial Series n/n!)
+
+```c
+#include <stdio.h>
+int factorial(int n);
+int main(int argc, char const *argv[]){
+    int n;
+    double sum=0;
+    printf("Enter the value : ");
+    scanf("%d",&n);
+    for (int i = 1; i <= n; i++){
+        double temp=(double)i/(factorial(i));
+        sum+=temp;
+    }
+    printf("Sum of Factorial Series = %lf",sum);
+    return 0;
+}
+int factorial(int n){
+    int fact=1;
+    for (int i = 1; i <= n; i++){
+        fact*=i;
+    }
+    return fact;
+}
+```
+
+| Input | Output   |
+| ----- | -------- |
+| 5     | 2.708333 |
+
+---
+
+### 34. Căn bậc 2 của 1 số (Square root a number)
+
+```c
+#include <stdio.h>
+#include <math.h>
+int main(int argc, char const *argv[]){
+    double n;
+    printf("Enter number : ");
+    scanf("%lf",&n);
+    printf("Square root of %lf = %lf",n,sqrt(n));
+    return 0;
+}
+```
+
+| Input | Output |
+| ----- | ------ |
+| 25    | 5      |
+
+---
+
+### 35. Bảng cưu chương thứ 'n' ('n'th Multiplication Table)
+
+```c
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter the order : ");
+    scanf("%d",&n);
+    for (int i = 1; i <= 10; i++){
+        printf("%d * %d = %d\n",n,i,n*i);
+    }
+    return 0;
+}
+```
+
+| Input | Output                                                                                                                                            |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 7     | 7 * 1 = 7<br/>7 * 2 = 14<br/>7 * 3 = 21<br/>7 * 4 = 28<br/>7 * 5 = 35<br/>7 * 6 = 42<br/>7 * 7 = 49<br/>7 * 8 = 56<br/>7 * 9 = 63<br/>7 * 10 = 70 |
+
+---
+
+### 36. In các số nguyên tố giữa 2 khoảng (Display Prime numbers between two intervals)
+
+```c
+#include <stdio.h>
+#include <math.h>
+int check_prime(int n);
+int main(int argc, char const *argv[]){
+    int n1,n2;
+    printf("Enter two numbers (intervals) : ");
+    scanf("%d %d",&n1,&n2);
+    for (int i = n1; i <= n2; i++){
+        if(check_prime(i))
+            printf("%d ",i);
+    }
+    return 0;
+}
+int check_prime(int n){
+    if(n<2) return 0;
+    for (int i = 2; i <= sqrt(n); i++){
+        if(n%i==0) 
+            return 0;
+    }
+    return 1;
+}
+```
+
+| Input | Output                           |
+| ----- | -------------------------------- |
+| 10 50 | 11 13 17 19 23 29 31 37 41 43 47 |
+
+---
+
+### 37.In n số trong dãy Fibonacci (Fibonacci series of n range)
+
+```c
+#include <stdio.h>
+#include <math.h>
+int fibonacci(int n);
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter the range : ");
+    scanf("%d",&n);
+    printf("Frist %d numbers Fibonacci Series : %d ",n,0);
+    for (int i = 1; i < n; i++){
+        printf("%d ",fibonacci(i));
+    }
+    return 0;
+}
+int fibonacci(int n){
+    if(n==1||n==2)
+        return 1;
+    return fibonacci(n-1)+fibonacci(n-2);
+}
+```
+
+| Input | Output                                           |
+| ----- | ------------------------------------------------ |
+| 8     | 0 1 1         2       3       5       8       13 |
+
+---
+
+### 38. Tổng n lần trong dãy Taylor (Sum of n terms Taylor series)
+
+một **chuỗi Taylor** của một [**hàm toán học**](https://vi.wikipedia.org/wiki/H%C3%A0m_s%E1%BB%91 "Hàm số") [**khả vi**](https://vi.wikipedia.org/wiki/Kh%E1%BA%A3_vi "Khả vi") [**thực**](https://vi.wikipedia.org/wiki/S%E1%BB%91_th%E1%BB%B1c "Số thực") hay [**phức**](https://vi.wikipedia.org/wiki/S%E1%BB%91_ph%E1%BB%A9c "Số phức"), *f* định nghĩa trên [**miền xác định**](https://vi.wikipedia.org/wiki/T%E1%BA%ADp_x%C3%A1c_%C4%91%E1%BB%8Bnh "Tập xác định") (*a* − *r*, *a* + *r*) là một [**chuỗi lũy thừa**](https://vi.wikipedia.org/w/index.php?title=Chu%E1%BB%97i_l%C5%A9y_th%E1%BB%ABa&action=edit&redlink=1 "Chuỗi lũy thừa (trang chưa được viết)"):
+
+![Ảnh chụp Màn hình 2020-07-24 lúc 15.48.34.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/07/24-15-48-57-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202020-07-24%20lu%CC%81c%2015.48.34.png)
+
+```c
+#include <stdio.h>
+#include <math.h>
+int main(int argc, char const *argv[]){
+    int x,n,fact=1;
+    double sum=0;
+    printf("Enter the value : ");
+    scanf("%d",&x);
+    printf("Enter the number of terms in the series : ");
+    scanf("%d",&n);
+    for (int i = 1; i < n; i++){
+        fact=fact*i;
+        sum=sum+(pow(x,i)/fact);  
+    }
+    printf("Sum of %d Taylor Series = %lf",n,sum+1);
+    return 0;
+}
+```
+
+| Input | Output    |
+| ----- | --------- |
+| 5 6   | 91.416664 |
+
+---
+
+### 39. Chuyển số thành dạng La Mã (Convert numbers to roman number)
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+| 66    | LXVI   |
+
+----
+
+### 40. Số Niven (Niven number)
+
+Một số chia hết cho tổng các chữ số của nó được gọi là **số niven**
+
+**Ví dụ:** 
+
+<img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/07/24-16-22-07-HarshadNumber.png" title="" alt="HarshadNumber.png" width="277">
+
+```c
+#include <stdio.h>
+int sum_digit(int n);
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter the number you want check : ");
+    scanf("%d",&n);
+    if(n%(sum_digit(n))==0)
+        printf("%d is a niven number",n);
+    else
+        printf("%d is not a niven number",n);
+    return 0;
+}
+int sum_digit(int n){
+    int t,sum=0;
+    while(n!=0){
+        t=n%10;
+        sum+=t;
+        n/=10;
+    }
+    return sum;
+}
+```
+
+| Input | Output               |
+| ----- | -------------------- |
+| 18    | 18 is a niven number |
+
+---
+
+### 41.Kiểm tra số nguyên hay số thực (Check number is integer or float)
+
+```c
+
+```
+
+| Input | Output               |
+| ----- | -------------------- |
+| 4.25  | 4.25 is float number |
