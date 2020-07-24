@@ -53,6 +53,7 @@ int main(int argc, char const *argv[]){
     printf("Enter the number of elements = ");
     scanf("%d",&n);
     int M[n];
+    printf("Enter %d numbers : \n",n);
     input_array(M,n);
     int min=M[0],max=M[0],lo_min,lo_max;
     for (int i = 1; i < n; i++){
@@ -271,25 +272,23 @@ void display(){
     }
 }
 
-
-
 ```
 
 ---
 
-### 7.
+### 7. In phần tử xen kẻ trong mảng (Print Alternate Elements)
 
 ```c
 
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input                            | Output        |
+| -------------------------------- | ------------- |
+| 10<br>1 4 55 66 22 0 76 11 23 78 | 1 55 22 76 23 |
 
 ---
 
-### 8.
+### 8.Sắp xếp tăng dần và  giảm dần trong mảng  (Sort Array in Ascecding&Descending Order)
 
 ```c
 
@@ -325,7 +324,7 @@ void display(){
 
 ---
 
-### 1.
+### 11.
 
 ```c
 
@@ -337,7 +336,7 @@ void display(){
 
 ---
 
-### 1.
+### 12.
 
 ```c
 
@@ -349,7 +348,7 @@ void display(){
 
 ---
 
-### 1.
+### 13.
 
 ```c
 
@@ -361,7 +360,7 @@ void display(){
 
 ---
 
-### 1.
+### 14.
 
 ```c
 
@@ -373,7 +372,7 @@ void display(){
 
 ---
 
-### 1.
+### 15.
 
 ```c
 
@@ -385,7 +384,7 @@ void display(){
 
 ---
 
-### 1.
+### 16.
 
 ```c
 
@@ -397,7 +396,7 @@ void display(){
 
 ---
 
-### 1.
+### 17.
 
 ```c
 
@@ -409,7 +408,7 @@ void display(){
 
 ---
 
-### 1.
+### 18.
 
 ```c
 
@@ -421,7 +420,7 @@ void display(){
 
 ---
 
-### 1.
+### 19.
 
 ```c
 
@@ -433,7 +432,7 @@ void display(){
 
 ---
 
-### 1.
+### 20.
 
 ```c
 
@@ -445,7 +444,7 @@ void display(){
 
 ---
 
-### 1.
+### 21.
 
 ```c
 
@@ -457,7 +456,7 @@ void display(){
 
 ---
 
-### 1.
+### 22.
 
 ```c
 
@@ -469,7 +468,7 @@ void display(){
 
 ---
 
-### 1.
+### 23.
 
 ```c
 
@@ -481,7 +480,7 @@ void display(){
 
 ---
 
-### 1.
+### 24.
 
 ```c
 
@@ -493,7 +492,7 @@ void display(){
 
 ---
 
-### 1.
+### 25.
 
 ```c
 
