@@ -207,15 +207,73 @@ void delete_array(int M[],int n,int pos){
 
 ---
 
-### 6.
+### 6. Thực hiện bảng hàng đợi dùng mảng (Implement a queue using Array)
 
 ```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int rear=-1;
+int front=-1;
+int M[1000];
+
+void insert();
+void display();
+void deleteElement();
+int main(int argc, char const *argv[]){
+    int choice;
+    printf("1.Insert element to queue \n");
+    printf("2.Delete element from queue \n");
+    printf("3.Display all elements of queue \n");
+    printf("4.Quit \n");
+    while (1){
+        printf("Enter your choice : ");
+        scanf("%d",&choice);
+        switch (choice){
+            case 1:insert();break;
+            case 2:deleteElement();break;
+            case 3:display();break;
+            case 4:exit(1);
+            default:
+                printf("Wrong choice \n");
+        }
+    }
+    return 0;
+}
+void insert(){
+    int item;
+    if (front==-1){
+        front=0;
+    }
+    printf("Enter the number you want insert : ");
+    scanf("%d",&item);
+    rear+=1;
+    M[rear]=item;
+}
+void deleteElement(){
+    if (front == -1 || front > rear){
+        printf("Queue Underflow \n");
+        return;
+    }
+    else{
+        printf("Element deleted from queue is : %d\n", M[front]);
+        front = front + 1;
+    }
+    printf("Delete Successful!\n");
+}
+void display(){
+    if(front==-1)
+        printf("Queue is empty");
+    else{
+        for (int i = front; i <= rear; i++){
+            printf("Number %d = %d\n",i+1,M[i]);
+        }
+    }
+}
+
+
 
 ```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
 
 ---
 
