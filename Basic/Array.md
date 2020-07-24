@@ -1,18 +1,18 @@
-### 1. Xoá phần tử từ mảng (Delete element from Array)
+### 1. Xoá phần tử trong mảng (Delete element from Array)
 
 ```c
 #include <stdio.h>
 void input_array(int M[],int n);
-void delete_array(int M[],int n,int x);
+void delete_array(int M[],int n,int pos);
 int main(int argc, char const *argv[]){
-    int n,x;
+    int n,pos;
     printf("Enter the number of elements = ");
     scanf("%d",&n);
     int M[n];
     input_array(M,n);
     printf("Enter number position you want delete : ");
-    scanf("%d",&x);
-    delete_array(M,n,x);
+    scanf("%d",&pos);
+    delete_array(M,n,pos);
     return 0;
 }
 void input_array(int M[],int n){
@@ -20,11 +20,11 @@ void input_array(int M[],int n){
         scanf("%d",&M[i]);
     }
 }
-void delete_array(int M[],int n,int x){
-    if(x>=n+1)
+void delete_array(int M[],int n,int pos){
+    if(pos>=n+1)
         printf("Deletion not possible");
     else{
-        for (int i = x-1; i < n-1; i++){
+        for (int i = pos-1; i < n-1; i++){
             M[i]=M[i+1];
         }
     }
@@ -82,39 +82,128 @@ void input_array(int M[],int n){
 
 ---
 
-### 3.
+### 3.Đảo ngược mảng
 
 ```c
-
+#include <stdio.h>
+void input_array(int M[],int n);
+void reserve_array(int M[],int N[],int n);
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter the number of elements = ");
+    scanf("%d",&n);
+    int M[n],N[n];
+    printf("Enter %d numbers : \n",n);
+    input_array(M,n);
+    reserve_array(M,N,n);
+    printf("Reverse array is : ");
+    for (int i = 0; i < n; i++){
+        printf("%d ",N[i]);
+    }
+    return 0;
+}
+void input_array(int M[],int n){
+    for (int i = 0; i < n; i++){
+        scanf("%d",&M[i]);
+    }
+}
+void reserve_array(int M[],int N[],int n){
+    for (int i = 0; i < n; i++){
+        N[n-i-1]=M[i];
+    }
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input      | Output |
+| ---------- | ------ |
+| 3<br>1 2 3 | 3 2 1  |
 
 ---
 
-### 4.
+### 4. Tổng các số âm, tổng các số dương, trung bình các số trong mảng (Sum of negative & positive and Average on Array)
 
 ```c
-
+#include <stdio.h>
+void input_array(int M[],int n);
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter the number of elements = ");
+    scanf("%d",&n);
+    int M[n];
+    printf("Enter %d numbers : \n",n);
+    input_array(M,n);
+    int sum_negative=0,sum_positive=0;
+    for (int i = 0; i < n; i++){
+        if(M[i]<0)
+            sum_negative+=M[i];
+        else
+            sum_positive+=M[i];
+    }
+    float average = (sum_positive+sum_negative)*1.0/n;
+    printf("Sum of negative numbers = %d\n",sum_negative);
+    printf("Sum of positive numbers = %d\n",sum_positive);
+    printf("Average of all input numbers = %f\n",average);
+    return 0;
+}
+void input_array(int M[],int n){
+    for (int i = 0; i < n; i++){
+        scanf("%d",&M[i]);
+    }
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input          | Output                                                         |
+| -------------- | -------------------------------------------------------------- |
+| 4<br>4 -7 -2 6 | sum of negative = -9<br>sum of positive = 10<br>Average = 0.25 |
 
 ---
 
-### 5.
+### 5.Xoá số đã cho trong mảng (Delete given number from Array)
 
 ```c
-
+#include <stdio.h>
+void input_array(int M[],int n);
+void delete_array(int M[],int n,int pos);
+int main(int argc, char const *argv[]){
+    int n,x;
+    printf("Enter the number of elements = ");
+    scanf("%d",&n);
+    int M[n];
+    printf("Enter %d numbers : \n",n);
+    input_array(M,n);
+    printf("Enter number you want delete on Array = ");
+    scanf("%d",&x);
+    int found=0;
+    for (int i = 0; i < n; i++){
+        if(M[i]==x){
+            found++;
+            delete_array(M,n,i);
+        }  
+    }
+    for (int i = 0; i < n-found; i++){
+        printf("%d ",M[i]);
+    }
+    return 0;
+}
+void input_array(int M[],int n){
+    for (int i = 0; i < n; i++){
+        scanf("%d",&M[i]);
+    }
+}
+void delete_array(int M[],int n,int pos){
+    if(pos>=n+1)
+        printf("Deletion not possible");
+    else{
+        for (int i = pos; i < n-1; i++){
+            M[i]=M[i+1];
+        }
+    }
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input               | Output  |
+| ------------------- | ------- |
+| 5<br>1 7 6 8 4<br>8 | 1 7 6 4 |
 
 ---
 
