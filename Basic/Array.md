@@ -279,7 +279,26 @@ void display(){
 ### 7. In phần tử xen kẻ trong mảng (Print Alternate Elements)
 
 ```c
-
+#include <stdio.h>
+void input_array(int M[],int n);
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter the number of elements = ");
+    scanf("%d",&n);
+    int M[n];
+    printf("Enter %d numbers : \n",n);
+    input_array(M,n);
+    printf("Alternate elements : ");
+    for (int i = 0; i < n; i+=2){
+        printf("%d ",M[i]);
+    }
+    return 0;
+}
+void input_array(int M[],int n){
+    for (int i = 0; i < n; i++){
+        scanf("%d",&M[i]);
+    }
+}
 ```
 
 | Input                            | Output        |
