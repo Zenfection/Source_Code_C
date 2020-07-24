@@ -584,12 +584,32 @@ int main(int argc, char const *argv[]){
 ### 19. (Sine series)
 
 ```c
-
+# include <stdio.h>
+# include <math.h>
+int main(int argc, char const *argv[]){
+    int n;
+    float x, val, sum, t;
+    printf("Enter the value for x (in degrees): ");
+    scanf("%f", &x);
+    printf("Enter the value for n : ");
+    scanf("%d", &n);
+    val = x;
+    x = x * 3.14159 / 180;
+    t = x;
+    sum = x;
+    for (int i = 1; i <= n; i++){
+        t = (t * pow((double) (-1), (double) (2 * i - 1)) *
+             x * x) / (2 * i * (2 * i + 1));
+        sum = sum + t;
+    }
+    printf("Sine value of %f is : %8.4f", val, sum);
+    return 0;
+}
 ```
 
 | Input | Output |
 | ----- | ------ |
-|       |        |
+| 45 1  | 0.7047 |
 
 ---
 
@@ -1213,7 +1233,17 @@ int sum_digit(int n){
 ### 41.Kiểm tra số nguyên hay số thực (Check number is integer or float)
 
 ```c
-
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+    float n;
+    printf("Enter number =  ");
+    scanf("%f",&n);
+    if(n-(int)n==0)
+        printf("n is a integer number");
+    else
+        printf("n is not a integer number");
+    return 0;
+}
 ```
 
 | Input | Output               |
