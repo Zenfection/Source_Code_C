@@ -271,7 +271,6 @@ void display(){
         }
     }
 }
-
 ```
 
 ---
@@ -310,12 +309,62 @@ void input_array(int M[],int n){
 ### 8.Sắp xếp tăng dần và  giảm dần trong mảng  (Sort Array in Ascecding&Descending Order)
 
 ```c
-
+#include <stdio.h>
+void input_array(int M[],int n);
+void outout_array(int M[],int n);
+void sort_ascending(int M[],int n);
+void sort_descending(int M[],int n);
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter the number of elements : ");
+    scanf("%d",&n);
+    int M[n];
+    printf("Enter %d numbers : \n",n);
+    input_array(M,n);
+    printf("Sort Ascending Array : ");
+    sort_ascending(M,n);outout_array(M,n);
+    printf("\n");
+    printf("Sort Descending Array : ");
+    sort_descending(M,n);outout_array(M,n);
+    return 0;
+}
+void input_array(int M[],int n){
+    for (int i = 0; i < n; i++){
+        scanf("%d",&M[i]);
+    }
+}
+void outout_array(int M[],int n){
+    for (int i = 0; i < n; i++){
+        printf("%d ",M[i]);
+    }
+}
+void sort_ascending(int M[],int n){
+    for (int i = 0; i < n; i++){
+        for (int j = i+1; j < n; j++){
+            if(M[i]>M[j]){
+                M[i]^=M[j];
+                M[j]^=M[i];
+                M[i]^=M[j];
+            }                
+        }    
+    }
+}
+void sort_descending(int M[],int n){
+    for (int i = 0; i < n; i++){
+        for (int j = i+1; j < n; j++){
+            if(M[i]<M[j]){
+                M[i]^=M[j];
+                M[j]^=M[i];
+                M[i]^=M[j];
+            }
+        }
+    }
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input        | Output                                      |
+| ------------ | ------------------------------------------- |
+| 4<br>4 5 7 1 | ascending : 1 4 5 7<br>descending : 7 5 4 1 |
 
 ---
 
@@ -714,5 +763,3 @@ v
 | Input | Output |
 | ----- | ------ |
 |       |        |
-
-
