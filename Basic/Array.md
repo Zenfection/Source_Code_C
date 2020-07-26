@@ -413,7 +413,37 @@ void sort_alphabet(char name[100][100],int n){
 ### 10. Tìm một phần tử trong mảng (Search an Element in Array)
 
 ```c
-
+#include <stdio.h>
+void input_array(int M[],int n);
+int find_locate_array(int M[],int n,int x);
+int main(int argc, char const *argv[]){
+    int n,x;
+    printf("Enter the number of elements : ");
+    scanf("%d",&n);
+    int M[n];
+    printf("Enter %d numbers : \n",n);
+    input_array(M,n);
+    printf("Enter the number you want find : ");
+    scanf("%d",&x);
+    if(find_locate_array(M,n,x)==0)
+        printf("%d doesn't exist in Array",x);
+    else
+        printf("Number found at the locate : %d",find_locate_array(M,n,x));
+    return 0;
+}
+void input_array(int M[],int n){
+    for (int i = 0; i < n; i++){
+        scanf("%d",&M[i]);
+    }
+}
+int find_locate_array(int M[],int n,int x){
+    int locate;
+    for (int i = 0; i < n; i++){
+        if(M[i]==x)
+            locate=i;
+    }
+    return locate+1;
+}
 ```
 
 | Input          | Output           |
