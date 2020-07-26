@@ -368,39 +368,69 @@ void sort_descending(int M[],int n){
 
 ---
 
-### 9.
+### 9.Sắp xếp theo chữ cái (Sort name Alphabetically)
 
 ```c
-
+#include <stdio.h>
+#include <string.h>
+void sort_alphabet(char name[100][100],int n);
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter the number of names : ");
+    scanf("%d",&n);
+    char name[100][100];
+    printf("Enter %d names : \n",n);
+    for (int i = 0; i < n; i++){
+        scanf("%s",&name[i][0]);
+    }
+    sort_alphabet(name,n);
+    printf("Sort names Alphabetically : ");
+    for (int i = 0; i < n; i++){
+        printf("%s ",name[i]);
+    }
+    return 0;
+}
+void sort_alphabet(char name[100][100],int n){
+    char temp[n];
+    for (int i = 0; i < n; i++){
+        for (int j = i+1; j < n; j++){
+               if(strcmp(name[i], name[j])>0){
+                    strcpy(temp,name[i]);
+                    strcpy(name[i],name[j]);
+                    strcpy(name[j],temp);
+               }
+           }   
+    }
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input          | Output         |
+| -------------- | -------------- |
+| mark luke john | john luke mark |
 
 ---
 
-### 10.
+### 10. Tìm một phần tử trong mảng (Search an Element in Array)
 
 ```c
 
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input          | Output           |
+| -------------- | ---------------- |
+| 4<br>4 5 12 80 | 80<br>locate : 4 |
 
 ---
 
-### 11.
+### 11.Phép nhân ma trận (Matrix Multiplication)
 
 ```c
 
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input                                                                                    | Output                        |
+| ---------------------------------------------------------------------------------------- | ----------------------------- |
+| Matrix 1: 3 3<br>1 2 0<br>0 1 1<br>2 0 1<br>Matrix 2: 3 3<br>1 1 2<br>2 1 1<br>1 2 1<br> | 5  3  4<br>3  3  2<br>3  4  5 |
 
 ---
 
