@@ -162,8 +162,8 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 12345 | 54321  |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/yggtldgc-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -189,8 +189,8 @@ int main(int argc, char const *argv[]){
 | ----- | ----------------- |
 | 10    | 10 is Even number |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/kaevvfho-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -227,8 +227,8 @@ int main(int argc, char const *argv[]){
 | ----- | -------------------- |
 | 2 5   | GCD = 1 <br>LCD = 10 |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/apigvkfx-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -255,8 +255,8 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 3 6   | 6 3    |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/pkzntgap-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -282,8 +282,8 @@ int main(int argc, char const *argv[]){
 | ----- | ------------- |
 | a     | a is a Vowel. |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/nivbzgmy-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
