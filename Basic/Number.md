@@ -310,8 +310,8 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 1234  | 10     |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/qntwiyke-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
