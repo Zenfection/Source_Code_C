@@ -88,6 +88,9 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 5     | 120    |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
 ### 4.Số tự mãn (Armstrong Number)
@@ -130,6 +133,9 @@ int count_digit(int n){
 | ----- | -------------------------- |
 | 153   | 153 is an Armstrong number |
 
+| [Chạy thử](https://repl.it/join/jtepfreg-zenfection) |
+| ---------------------------------------------------- |
+
 ---
 
 ### 5.Đảo ngược của 1 số (Reverse of a number)
@@ -156,9 +162,12 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 12345 | 54321  |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 4.Tìm số chẵn hoặc lẻ (Find Even or Odd number)
+### 6.Tìm số chẵn hoặc lẻ (Find Even or Odd number)
 
 Số chẵn là số chia hết cho 2, còn số lẻ thì không
 
@@ -180,9 +189,12 @@ int main(int argc, char const *argv[]){
 | ----- | ----------------- |
 | 10    | 10 is Even number |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 5. Ước chung lớn nhất và bội chung nhỏ nhất (HCF & LCM)
+### 7. Ước chung lớn nhất và bội chung nhỏ nhất (HCF & LCM)
 
 HCF : (ước chung lớn nhất): Là số nguyên lớn nhất là ước chung của a và b
 
@@ -215,9 +227,12 @@ int main(int argc, char const *argv[]){
 | ----- | -------------------- |
 | 2 5   | GCD = 1 <br>LCD = 10 |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 6.Hoán đổi 2 số (Swap two numbers)
+### 8.Hoán đổi 2 số (Swap two numbers)
 
 ```c
 #include <stdio.h>
@@ -240,9 +255,12 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 3 6   | 6 3    |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 7.Kiểm tra chữ cái là nguyên âm (Check if Alphabet is Vowel)
+### 9.Kiểm tra chữ cái là nguyên âm (Check if Alphabet is Vowel)
 
 có 5 chữ nguyên âm là : anh (a), ốm (o), em (e), ú (u), ì (i) và cả chữ viết hoa của chúng.
 
@@ -264,9 +282,12 @@ int main(int argc, char const *argv[]){
 | ----- | ------------- |
 | a     | a is a Vowel. |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 8. Tổng các chữ số của 1 số (Sum Digits of a Number)
+### 10. Tổng các chữ số của 1 số (Sum Digits of a Number)
 
 ```c
 #include <stdio.h>
@@ -289,9 +310,12 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 1234  | 10     |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 9. Tổng các chữ số của 1 số sử dụng Đệ quy (Sum Digits of a number using recursion)
+### 11. Tổng các chữ số của 1 số sử dụng Đệ quy (Sum Digits of a number using recursion)
 
 ```c
 #include <stdio.h>
@@ -316,9 +340,12 @@ int sum_digits(int n){
 | ----- | ------ |
 | 123   | 6      |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 10. In n số nguyên tố đầu tiên (Print Primes till 'n')
+### 12. In n số nguyên tố đầu tiên (Print Primes till 'n')
 
 Số nguyên tố là số chia hết cho 1 và chính nó => bắt đầu từ 2
 
@@ -358,9 +385,12 @@ int check_prime(int n){
 | ----- | ------------ |
 | 6     | 2 3 5 7 9 11 |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 11. Thêm n số và tính tổng nó (Add 'n' numbers and Sum)
+### 13. Thêm n số và tính tổng nó (Add 'n' numbers and Sum)
 
 ```c
 #include <stdio.h>
@@ -384,9 +414,12 @@ int main(int argc, char const *argv[]){
 | ------------ | ------ |
 | 4<br>1 2 3 4 | 10     |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 12.Thêm n số và tính tổng nó bằng Mảng (Add 'n' numbers and Sum using Array)
+### 14.Thêm n số và tính tổng nó bằng Mảng (Add 'n' numbers and Sum using Array)
 
 ```c
 #include <stdio.h>
@@ -410,9 +443,12 @@ int main(int argc, char const *argv[]){
 | ------------ | ------ |
 | 4<br>5 6 7 8 | 26     |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 13. Kiểm tra số nguyên tố (Check prime number)
+### 15. Kiểm tra số nguyên tố (Check prime number)
 
 ```c
 #include <stdio.h>
@@ -444,9 +480,12 @@ int check_prime(int n){
 | ----- | ------------------- |
 | 7     | 7 is a prime number |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 14. Kiểm tra số đối xứng (Check Palinedrome)
+### 16. Kiểm tra số đối xứng (Check Palinedrome)
 
 **Palindrome** là số mà viết ngược hay xuôi vẫn là nó, hiểu là **số đối xứng** cũng được
 
@@ -475,9 +514,12 @@ int main(int argc, char const *argv[]){
 | ----- | ---------------------------- |
 | 12321 | 12321 is a palindrone number |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 15. Hoán vị 2 số bằng xor (Swap two number using bitwise xor)
+### 17. Hoán vị 2 số bằng xor (Swap two number using bitwise xor)
 
 ```c
 #include <stdio.h>
@@ -500,9 +542,12 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 5 3   | 3 5    |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 16. In bình phương 1 tới n (Calculate Square till 'n' number)
+### 18. In bình phương 1 tới n (Calculate Square till 'n' number)
 
 ```c
 #include <stdio.h>
@@ -523,9 +568,12 @@ int main(int argc, char const *argv[]){
 | ----- | ----------- |
 | 5     | 1 4 9 16 25 |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 17. Hệ số của 1 số (Factors of Number)
+### 19. Hệ số của 1 số (Factors of Number)
 
 ```c
 #include <stdio.h>
@@ -547,9 +595,12 @@ int main(int argc, char const *argv[]){
 | ----- | --------- |
 | 26    | 1 2 13 26 |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 18.Số neon (Neon number)
+### 20.Số neon (Neon number)
 
 **Số neon** là số mà **tổng các chữ số trong bình phương của nó bằng chính nó**:
 
@@ -579,9 +630,12 @@ int main(int argc, char const *argv[]){
 | ----- | ---------------- |
 | 9     | 9 is neon number |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 19. (Sine series)
+### 21. (Sine series)
 
 ```c
 # include <stdio.h>
@@ -611,9 +665,12 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 45 1  | 0.7047 |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 20. In 5 số tiếp theo (Next 5 successive numbers)
+### 22. In 5 số tiếp theo (Next 5 successive numbers)
 
 ```c
 #include <stdio.h>
@@ -633,9 +690,12 @@ int main(int argc, char const *argv[]){
 | ----- | ---------- |
 | 5     | 6 7 8 9 10 |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 21. Tổng của các bình phương tới n (Sum of Squares till 'n')
+### 23. Tổng của các bình phương tới n (Sum of Squares till 'n')
 
 ```c
 #include <stdio.h>
@@ -656,9 +716,12 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 5     | 55     |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 22. Số lớn nhất trong 3 số sử dụng toán tử ? (Largest among 3 number using ternary operator)
+### 24. Số lớn nhất trong 3 số sử dụng toán tử ? (Largest among 3 number using ternary operator)
 
 ```c
 #include <stdio.h>
@@ -676,9 +739,12 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 5 8 4 | 8      |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 23. Hoán vị 2 số sử dụng con trỏ (Swap two number using Pointer)
+### 25. Hoán vị 2 số sử dụng con trỏ (Swap two number using Pointer)
 
 ```c
 #include <stdio.h>
@@ -704,9 +770,12 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 3 5   | 5 3    |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 24. Tính tổng n số (Sum of n number)
+### 26. Tính tổng n số (Sum of n number)
 
 ```c
 #include <stdio.h>
@@ -729,9 +798,12 @@ int main(int argc, char const *argv[]){
 | --------------- | ------ |
 | 5 <br>1 6 7 4 2 | 20     |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 25. In Armtrong từ tới n (Armtrong numbers till 'n')
+### 27. In Armtrong từ tới n (Armtrong numbers till 'n')
 
 ```c
 #include <stdio.h>
@@ -780,9 +852,12 @@ int check_armtrong(int n){
 | ----- | ----------------- |
 | 500   | 1 153 370 371 407 |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 26. Kiểm tra 2 số  là số thân thiện (Check whether two numbers are Friendly number )
+### 28. Kiểm tra 2 số  là số thân thiện (Check whether two numbers are Friendly number )
 
 **Số thân thiện** là số **2 hay nhiều số tự nhiên** nếu chúng có chung tỷ lệ giữa tổng các ước số của một số chia cho chính số đó
 
@@ -822,9 +897,12 @@ double friendly(int n){
 | ------ | ------------------------------ |
 | 30 140 | 30 and 140 are Friendly number |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 27. Kiểm tra 2 số là số bạn bè (Check whether two numbers are Amicable number)
+### 29. Kiểm tra 2 số là số bạn bè (Check whether two numbers are Amicable number)
 
 ```c
 #include <stdio.h>
@@ -855,9 +933,12 @@ int amicable(int n){
 | ------- | ------------------------------- |
 | 220 284 | 220 and 284 are Amicable number |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 28. Hoán vị 2 số không dùng biến thứ 3 (Swap two numbers without third variable)
+### 30. Hoán vị 2 số không dùng biến thứ 3 (Swap two numbers without third variable)
 
 ```c
 #include <stdio.h>
@@ -880,9 +961,12 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 3 5   | 5 3    |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 29. Tổng n số nguyên tố đầu tiên (Sum of first n prime number)
+### 31. Tổng n số nguyên tố đầu tiên (Sum of first n prime number)
 
 ```c
 #include <stdio.h>
@@ -918,9 +1002,12 @@ int check_prime(int n){
 | ----- | ------------------------------------ |
 | 10    | 2 3 5 7 11 13 17 19 23 29<br>sum=129 |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 30. Số lớn nhất trong n số (Largest number of 'n' number)
+### 32. Số lớn nhất trong n số (Largest number of 'n' number)
 
 ```c
 #include <stdio.h>
@@ -955,7 +1042,12 @@ int max_array(int M[],int n){
 | ----------------- | ------ |
 | 5<br>12 56 8 2 34 | 56     |
 
-### 31. Trung bình của n số (Average of 'n' numbers)
+| [Chạy thử]() |
+| ------------ |
+
+---
+
+### 33. Trung bình của n số (Average of 'n' numbers)
 
 ```c
 #include <stdio.h>
@@ -989,9 +1081,12 @@ double average_array(int M[],int n){
 | ------------------ | ------ |
 | 5<br>12 10 53 7 39 | 24.20  |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-#### 32. Ước chung lớn nhất dùng Euclid (GCD using Euclid)
+#### 34. Ước chung lớn nhất dùng Euclid (GCD using Euclid)
 
 ```c
 #include <stdio.h>
@@ -1013,9 +1108,12 @@ int GCD(int a,int b){
 | ----- | ------ |
 | 24 56 | 8      |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 33.Tính tổng giai thừa của dãy : n/n! (Sum of factorial Series n/n!)
+### 35.Tính tổng giai thừa của dãy : n/n! (Sum of factorial Series n/n!)
 
 ```c
 #include <stdio.h>
@@ -1045,9 +1143,12 @@ int factorial(int n){
 | ----- | -------- |
 | 5     | 2.708333 |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 34. Căn bậc 2 của 1 số (Square root a number)
+### 36. Căn bậc 2 của 1 số (Square root a number)
 
 ```c
 #include <stdio.h>
@@ -1065,9 +1166,12 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 25    | 5      |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 35. Bảng cưu chương thứ 'n' ('n'th Multiplication Table)
+### 37. Bảng cưu chương thứ 'n' ('n'th Multiplication Table)
 
 ```c
 #include <stdio.h>
@@ -1086,9 +1190,12 @@ int main(int argc, char const *argv[]){
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 7     | 7 * 1 = 7<br/>7 * 2 = 14<br/>7 * 3 = 21<br/>7 * 4 = 28<br/>7 * 5 = 35<br/>7 * 6 = 42<br/>7 * 7 = 49<br/>7 * 8 = 56<br/>7 * 9 = 63<br/>7 * 10 = 70 |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 36. In các số nguyên tố giữa 2 khoảng (Display Prime numbers between two intervals)
+### 38. In các số nguyên tố giữa 2 khoảng (Display Prime numbers between two intervals)
 
 ```c
 #include <stdio.h>
@@ -1118,9 +1225,12 @@ int check_prime(int n){
 | ----- | -------------------------------- |
 | 10 50 | 11 13 17 19 23 29 31 37 41 43 47 |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 37.In n số trong dãy Fibonacci (Fibonacci series of n range)
+### 39.In n số trong dãy Fibonacci (Fibonacci series of n range)
 
 ```c
 #include <stdio.h>
@@ -1147,9 +1257,12 @@ int fibonacci(int n){
 | ----- | ------------------------------------------------ |
 | 8     | 0 1 1         2       3       5       8       13 |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 38. Tổng n lần trong dãy Taylor (Sum of n terms Taylor series)
+### 40. Tổng n lần trong dãy Taylor (Sum of n terms Taylor series)
 
 một **chuỗi Taylor** của một [**hàm toán học**](https://vi.wikipedia.org/wiki/H%C3%A0m_s%E1%BB%91 "Hàm số") [**khả vi**](https://vi.wikipedia.org/wiki/Kh%E1%BA%A3_vi "Khả vi") [**thực**](https://vi.wikipedia.org/wiki/S%E1%BB%91_th%E1%BB%B1c "Số thực") hay [**phức**](https://vi.wikipedia.org/wiki/S%E1%BB%91_ph%E1%BB%A9c "Số phức"), *f* định nghĩa trên [**miền xác định**](https://vi.wikipedia.org/wiki/T%E1%BA%ADp_x%C3%A1c_%C4%91%E1%BB%8Bnh "Tập xác định") (*a* − *r*, *a* + *r*) là một [**chuỗi lũy thừa**](https://vi.wikipedia.org/w/index.php?title=Chu%E1%BB%97i_l%C5%A9y_th%E1%BB%ABa&action=edit&redlink=1 "Chuỗi lũy thừa (trang chưa được viết)"):
 
@@ -1178,9 +1291,12 @@ int main(int argc, char const *argv[]){
 | ----- | --------- |
 | 5 6   | 91.416664 |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 39. Chuyển số thành dạng La Mã (Convert numbers to roman number)
+### 41. Chuyển số thành dạng La Mã (Convert numbers to roman number)
 
 | Ký tự | Số   |
 | ----- | ---- |
@@ -1292,9 +1408,12 @@ void postdigit(char c, int n){
 | ----- | ------ |
 | 66    | LXVI   |
 
+| [Chạy thử]() |
+| ------------ |
+
 ----
 
-### 40. Số Niven (Niven number)
+### 42. Số Niven (Niven number)
 
 Một số chia hết cho tổng các chữ số của nó được gọi là **số niven**
 
@@ -1330,9 +1449,12 @@ int sum_digit(int n){
 | ----- | -------------------- |
 | 18    | 18 is a niven number |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
-### 41.Kiểm tra số nguyên hay số thực (Check number is integer or float)
+### 43.Kiểm tra số nguyên hay số thực (Check number is integer or float)
 
 ```c
 #include <stdio.h>
@@ -1351,3 +1473,6 @@ int main(int argc, char const *argv[]){
 | Input | Output               |
 | ----- | -------------------- |
 | 4.25  | 4.25 is float number |
+
+| [Chạy thử]() |
+| ------------ |
