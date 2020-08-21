@@ -464,7 +464,60 @@ int find_locate_array(int M[],int n,int x){
 
 ---
 
-### 12.
+### 12.Kiểm tra ma trận thưa (Check matrix is sqarse matrix)
+
+**Ma trận thưa** (Sparse **Matrix**) **là ma trận** có số phần tử bằng 0 nhiều hơn số phần tử khác 0
+
+```c
+#include <stdio.h>
+void input_matrix(int M[100][100],int row,int col);
+int squares_matrix(int M[100][100],int row,int col);
+int main(int argc, char const *argv[]){
+    int row,col;
+    printf("Enter the number of rows and columns : ");
+    scanf("%d %d",&row,&col);
+    int M[100][100];
+    printf("Enter matrix : \n");
+    input_matrix(M,row,col);
+    if(squares_matrix(M,row,col))
+        printf("The given matrix is sparse matrix");
+    else
+        printf("The given matrix is not a sparse matrix");
+    return 0;
+}
+void input_matrix(int M[100][100],int row,int col){
+    for (int i = 0; i < row; i++){
+        for (int j = 0; j < col; j++){
+            scanf("%d",&M[i][j]);
+        }
+        printf("\n");
+    }
+}
+int squares_matrix(int M[100][100],int row,int col){
+    int count=0;
+    for (int i = 0; i < row; i++){
+        for (int j = 0; j < col; j++){
+        if(M[i][j]==0)
+            count++;
+        }
+    }
+    printf("There are %d number of zeros\n", count);
+    if(count>(row*col)/2)
+        return 1;
+    else
+        return 0;
+}
+
+
+```
+
+| Input                          | Output                                                           |
+| ------------------------------ | ---------------------------------------------------------------- |
+| 3 3<br>4 8 0<br>0 0 3<br>0 0 1 | There are 5 number of zeros<br>The given matrix is sparse matrix |
+
+---
+
+### 13. Đổi ma trận tam giác (Change to triange matrix)
 
 ```c
 
@@ -472,23 +525,11 @@ int find_locate_array(int M[],int n,int x){
 
 | Input | Output |
 | ----- | ------ |
-|       |        |
+| <     |        |
 
 ---
 
-### 13.
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-### 14.
+### 14. Tính định thức ma trận (Determinant of matrix)
 
 ```c
 
