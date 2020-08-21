@@ -1,3 +1,5 @@
+# Number
+
 ### 1.Số hoàn thiện (Perfect Number)
 
 Số hoàn thiện là một số nguyên dương mà tổng các ước nguyên dương chính thức của nó bằng chính nó
