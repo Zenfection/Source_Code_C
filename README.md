@@ -16,17 +16,13 @@ Như các bạn đã thấy, mình làm tài liệu này dựa trên một ngu�
 
 ## <img title="" src="https://storage.googleapis.com/programminghub/program_icons/5P.png" alt="icons8_list_64px.png" width="50">Array
 
-## 
+## <img src="https://storage.googleapis.com/programminghub/program_icons/11P.png" title="" alt="__" width="50">Function
 
-### Function
+## <img src="https://storage.googleapis.com/programminghub/program_icons/10P.png" title="" alt="——" width="50">Formula
 
-### ——Formula
+## <img src="https://storage.googleapis.com/programminghub/program_icons/7P.png" title="" alt="——" width="50">Ctype.h
 
-### ——Ctype.h
-
-### ——Data Structures
-
-
+## <img src="https://storage.googleapis.com/programminghub/program_icons/8P.png" title="" alt="——" width="50">Data Structures
 
 ## <img src="https://storage.googleapis.com/programminghub/program_icons/9P.png" title="" alt="——" width="50">File Handling
 
@@ -34,14 +30,14 @@ Như các bạn đã thấy, mình làm tài liệu này dựa trên một ngu�
 
 ## <img title="" src="https://storage.googleapis.com/programminghub/program_icons/13P.png" alt="icons8_picture_64px_1.png" width="50">Graphics
 
-### ——Miscellaneous
+## <img src="https://storage.googleapis.com/programminghub/program_icons/2P.png" title="" alt="——" width="50">Miscellaneous
 
-### ——Pattern
+## <img src="https://storage.googleapis.com/programminghub/program_icons/15P.png" title="" alt="——" width="50">Pattern
 
-### ——Pointer
+## <img src="https://storage.googleapis.com/programminghub/program_icons/16P.png" title="" alt=" ——" width="50">Pointer
 
-### ——Recursion
+## <img src="https://storage.googleapis.com/programminghub/program_icons/17P.png" title="" alt="——" width="50">Recursion
 
 ## <img title="" src="https://storage.googleapis.com/programminghub/program_icons/18P.png" alt="icons8_sort_64px.png" width="50">Sort
 
-### ——String
+## <img src="https://storage.googleapis.com/programminghub/program_icons/4P.png" title="" alt="- " width="50">String
