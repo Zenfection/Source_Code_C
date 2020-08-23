@@ -12,7 +12,7 @@ Như các bạn đã thấy, mình làm tài liệu này dựa trên một ngu�
 
 ## **Mục lục:**
 
-## [<img title="" src="https://storage.googleapis.com/programminghub/program_icons/3P.png" alt="icons8_numbers_64px_1.png" width="50"> Number]([Source_Code_C/Number at master · Zenfection/Source_Code_C · GitHub](https://github.com/Zenfection/Source_Code_C/tree/master/Number))
+## [<img title="" src="https://storage.googleapis.com/programminghub/program_icons/3P.png" alt="icons8_numbers_64px_1.png" width="50"> Number](https://github.com/Zenfection/Source_Code_C/tree/master/Number)
 
 ## <img title="" src="https://storage.googleapis.com/programminghub/program_icons/5P.png" alt="icons8_list_64px.png" width="50">Array
 
