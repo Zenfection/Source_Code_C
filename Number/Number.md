@@ -805,7 +805,7 @@ int main(int argc, char const *argv[]){
 
 ---
 
-### 27. In Armtrong từ tới n (Armtrong numbers till 'n')
+### 27. In số Armtrong tới n (Armtrong numbers till 'n')
 
 ```c
 #include <stdio.h>

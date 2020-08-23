@@ -2,7 +2,7 @@
 
 # [![icons8_curved_arrow_64px_1.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/08/23-21-29-53-icons8_curved_arrow_64px_1.png) Nhấn vào đây để xem chi tiết](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md)
 
-## Chi tiết các bài:
+## <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/08/23-21-54-43-icons8_list_64px_1.png" title="" alt="icons8_list_64px_1.png" width="50">Chi tiết các bài:
 
 1. [Số hoàn thiện](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#1s%E1%BB%91-ho%C3%A0n-thi%E1%BB%87n-perfect-number)
 
@@ -44,6 +44,16 @@
 
 20. [Số Neon](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#20s%E1%BB%91-neon-neon-number)
 
-21. 
+21. [Dãy Sin](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#21-d%C3%A3y-sinsine-series)
+
+22. [In 5 số tiếp theo](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#22-in-5-s%E1%BB%91-ti%E1%BA%BFp-theo-next-5-successive-numbers)
+
+23. [Tổng các bình phương tới n](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#23-t%E1%BB%95ng-c%E1%BB%A7a-c%C3%A1c-b%C3%ACnh-ph%C6%B0%C6%A1ng-t%E1%BB%9Bi-n-sum-of-squares-till-n)
+
+24. [Số lớn nhất trong 3 số sử dụng toán tử ?](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#24-s%E1%BB%91-l%E1%BB%9Bn-nh%E1%BA%A5t-trong-3-s%E1%BB%91-s%E1%BB%AD-d%E1%BB%A5ng-to%C3%A1n-t%E1%BB%AD--largest-among-3-number-using-ternary-operator)
+
+25. [Hoán vị 2 số sử dụng con trỏ](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#25-ho%C3%A1n-v%E1%BB%8B-2-s%E1%BB%91-s%E1%BB%AD-d%E1%BB%A5ng-con-tr%E1%BB%8F-swap-two-number-using-pointer)
+
+26. [Tính tổng n số](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#26-t%C3%ADnh-t%E1%BB%95ng-n-s%E1%BB%91-sum-of-n-number)
 
 
