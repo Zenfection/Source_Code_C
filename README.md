@@ -12,11 +12,13 @@ Như các bạn đã thấy, mình làm tài liệu này dựa trên một ngu�
 
 ## **Mục lục:**
 
-## <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/08/23-20-13-21-icons8_numbers_64px_1.png" alt="icons8_numbers_64px_1.png" width="50"> Number
+## <img title="" src="https://storage.googleapis.com/programminghub/program_icons/3P.png" alt="icons8_numbers_64px_1.png" width="50"> Number
 
-### ——Array
+## <img title="" src="https://storage.googleapis.com/programminghub/program_icons/5P.png" alt="icons8_list_64px.png" width="50">Array
 
-### ——Function
+## 
+
+### Function
 
 ### ——Formula
 
@@ -24,11 +26,13 @@ Như các bạn đã thấy, mình làm tài liệu này dựa trên một ngu�
 
 ### ——Data Structures
 
-### ——File Handling
 
-### ——Game
 
-### ——Graphics
+## <img src="https://storage.googleapis.com/programminghub/program_icons/9P.png" title="" alt="——" width="50">File Handling
+
+## <img title="" src="https://storage.googleapis.com/programminghub/program_icons/12P.png" alt="icons8_game_controller_64px.png" width="50">Game
+
+## <img title="" src="https://storage.googleapis.com/programminghub/program_icons/13P.png" alt="icons8_picture_64px_1.png" width="50">Graphics
 
 ### ——Miscellaneous
 
@@ -38,6 +42,6 @@ Như các bạn đã thấy, mình làm tài liệu này dựa trên một ngu�
 
 ### ——Recursion
 
-### ——Sort
+## <img title="" src="https://storage.googleapis.com/programminghub/program_icons/18P.png" alt="icons8_sort_64px.png" width="50">Sort
 
 ### ——String
