@@ -70,4 +70,24 @@
 
 33. [Trung bình của n số](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#33-trung-b%C3%ACnh-c%E1%BB%A7a-n-s%E1%BB%91-average-of-n-numbers)
 
-34. 
+34. [Ước chung lớn nhất dùng Euclid](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#34-%C6%B0%E1%BB%9Bc-chung-l%E1%BB%9Bn-nh%E1%BA%A5t-d%C3%B9ng-euclid-gcd-using-euclid)
+
+35. [Tính tổng giai thừa của dãy n/n!](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#35t%C3%ADnh-t%E1%BB%95ng-giai-th%E1%BB%ABa-c%E1%BB%A7a-d%C3%A3y--nn-sum-of-factorial-series-nn)
+
+36. [Căn bậc 2 của một số](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#36-c%C4%83n-b%E1%BA%ADc-2-c%E1%BB%A7a-1-s%E1%BB%91-square-root-a-number)
+
+37. [Bảng cửu chương thứ 'n'](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#37-b%E1%BA%A3ng-c%C6%B0u-ch%C6%B0%C6%A1ng-th%E1%BB%A9-n-nth-multiplication-table)
+
+38. [In các số nguyên tố giữa 2 khoảng](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#38-in-c%C3%A1c-s%E1%BB%91-nguy%C3%AAn-t%E1%BB%91-gi%E1%BB%AFa-2-kho%E1%BA%A3ng-display-prime-numbers-between-two-intervals)
+
+39. [In n số trong dãy Fibonacci](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#39in-n-s%E1%BB%91-trong-d%C3%A3y-fibonacci-fibonacci-series-of-n-range)
+
+40. [Tổng n lần trong dãy Taylor](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#40-t%E1%BB%95ng-n-l%E1%BA%A7n-trong-d%C3%A3y-taylor-sum-of-n-terms-taylor-series)
+
+41. [Chuyển số thành dạng La Mã](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#41-chuy%E1%BB%83n-s%E1%BB%91-th%C3%A0nh-d%E1%BA%A1ng-la-m%C3%A3-convert-numbers-to-roman-number)
+
+42. [Số Niven](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#42-s%E1%BB%91-niven-niven-number)
+
+43. [Kiểm tra số nguyên hay số thực](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#43ki%E1%BB%83m-tra-s%E1%BB%91-nguy%C3%AAn-hay-s%E1%BB%91-th%E1%BB%B1c-check-number-is-integer-or-float)
+
+
