@@ -637,7 +637,7 @@ int main(int argc, char const *argv[]){
 
 ---
 
-### 21. (Sine series)
+### 21. Dãy sin(Sine series)
 
 ```c
 # include <stdio.h>
