@@ -507,8 +507,6 @@ int squares_matrix(int M[100][100],int row,int col){
     else
         return 0;
 }
-
-
 ```
 
 | Input                          | Output                                                           |
@@ -525,7 +523,7 @@ int squares_matrix(int M[100][100],int row,int col){
 
 | Input | Output |
 | ----- | ------ |
-| <     |        |
+|       |        |
 
 ---
 
@@ -535,332 +533,134 @@ int squares_matrix(int M[100][100],int row,int col){
 
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input                          | Output    |
+| ------------------------------ | --------- |
+| n=3<br>1 5 9<br>7 3 5<br>2 4 8 | det = -28 |
 
 ---
 
-### 15.
+### 15. Kiểm tra ma trận đơn vị (Check if Identity Matrix)
 
 ```c
 
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input                          | Output                |
+| ------------------------------ | --------------------- |
+| 3 3<br>1 0 0<br>0 1 0<br>0 0 1 | It is identity matrix |
 
 ---
 
-### 16.
+### 16. Mô phỏng Stack sử dụng mảng (Simulation Stack using Array)
 
 ```c
 
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
 ---
 
-### 17.
+### 17. Chèn một phần tử trong mảng (Insert an element in an array)
 
 ```c
 
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input                                     | Output       |
+| ----------------------------------------- | ------------ |
+| n=5<br>2 4 7 9 7<br>pos=3<br>value=45<br> | 2 4 45 7 9 7 |
 
 ---
 
-### 18.
+### 18. Nghịch đảo của một ma trận (Inverse of a Matrix)
 
 ```c
 
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input                           | Output                                                                             |
+| ------------------------------- | ---------------------------------------------------------------------------------- |
+| n=3<br>3 5 2 <br>1 5 8<br>3 9 2 | 0.705    -0.091    -0.341<br>-0.250   -0.000    0.250<br>0.680     0.136    -0.114 |
 
 ---
 
-### 19.
+### 19. Ma trận kỳ ảo (Magic matrix)
 
 ```c
 
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input                    | Output                                 |
+| ------------------------ | -------------------------------------- |
+| Enter Odd number : 3<br> | 08  01  06<br>03  05  07<br>04  09  02 |
 
 ---
 
-### 20.
+### 20. Ma trận chuyển vị (Matrix Transpose)
 
 ```c
 
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input                          | Output                        |
+| ------------------------------ | ----------------------------- |
+| 3 3<br>1 2 3<br>4 5 6<br>7 8 9 | 1  4  7<br>2  5  8<br>3  6  9 |
 
 ---
 
-### 21.
+### 21. Chuẩn và vết của ma trận (Norm and Trace of Matrix)
 
 ```c
 
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input                                 | Output                                           |
+| ------------------------------------- | ------------------------------------------------ |
+| 3  3<br>1  2  3<br>5  6  0<br>4  7  8 | normal of matrix = 14.28<br>trace of matrix = 15 |
 
 ---
 
-### 22.
+### 22. In tất cả số không trùng nhau trong mảng số nguyên (Print all Distinct/Unique elements of an integer array)
 
 ```c
 
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input                                     | Output           |
+| ----------------------------------------- | ---------------- |
+| size = 10<br>1  5  5  1  4  6  2  1  6  7 | 1  5  4  6  2  7 |
 
 ---
 
-### 23.
+### 23. Loại bỏ số trong mảng trùng nhau (Remove Duplicate from Array)
 
 ```c
 
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input                 | Output     |
+| --------------------- | ---------- |
+| 6<br>3  5  7  5  3  2 | 3  5  7  2 |
 
 ---
 
-### 24.
+### 24. Kiểm tra ma trận vuông đối xứng (Check if square matrix is Symmetric)
 
 ```c
 
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input                                | Output              |
+| ------------------------------------ | ------------------- |
+| 3<br>1  7  3<br>7  4  -5<br>3  -5  6 | Matrix is symmetric |
 
 ---
 
-### 25.
+### 25. Tổng từng dòng trên Matrix
 
 ```c
 
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-### 1.
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-v
-
-### 1.
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-### 1.
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-### 1.
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-### 1.
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-### 1.
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-### 1.
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-### 1.
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-### 1.
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-### 1.
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-### 1.
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-### 1.
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-### 1.
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-### 1.
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-### 1.
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-### 1.
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input                                 | Output                                                     |
+| ------------------------------------- | ---------------------------------------------------------- |
+| 3 3<br>1  4  8<br>2  6  0<br>3  9  -2 | Sum of 1 row = 13<br>Sum of 2 row = 8<br>Sum of 3 row = 10 |
