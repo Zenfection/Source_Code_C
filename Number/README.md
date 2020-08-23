@@ -56,4 +56,18 @@
 
 26. [Tính tổng n số](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#26-t%C3%ADnh-t%E1%BB%95ng-n-s%E1%BB%91-sum-of-n-number)
 
+27. [In số Amstrong tới n](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#27-in-s%E1%BB%91-armtrong-t%E1%BB%9Bi-n-armtrong-numbers-till-n)
 
+28. [Kiểm tra 2 số là số friendly](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#28-ki%E1%BB%83m-tra-2-s%E1%BB%91--l%C3%A0-s%E1%BB%91-th%C3%A2n-thi%E1%BB%87n-check-whether-two-numbers-are-friendly-number-)
+
+29. [Kiểm tra 2 số là số amicable](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#29-ki%E1%BB%83m-tra-2-s%E1%BB%91-l%C3%A0-s%E1%BB%91-b%E1%BA%A1n-b%C3%A8-check-whether-two-numbers-are-amicable-number)
+
+30. [Hoán vị 2 số không dùng biến thứ 3](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#30-ho%C3%A1n-v%E1%BB%8B-2-s%E1%BB%91-kh%C3%B4ng-d%C3%B9ng-bi%E1%BA%BFn-th%E1%BB%A9-3-swap-two-numbers-without-third-variable)
+
+31. [Tổng n số nguyên tố đầu tiên](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#31-t%E1%BB%95ng-n-s%E1%BB%91-nguy%C3%AAn-t%E1%BB%91-%C4%91%E1%BA%A7u-ti%C3%AAn-sum-of-first-n-prime-number)
+
+32. [Số lớn nhất trong n số](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#32-s%E1%BB%91-l%E1%BB%9Bn-nh%E1%BA%A5t-trong-n-s%E1%BB%91-largest-number-of-n-number)
+
+33. [Trung bình của n số](https://github.com/Zenfection/Source_Code_C/blob/master/Number/Number.md#33-trung-b%C3%ACnh-c%E1%BB%A7a-n-s%E1%BB%91-average-of-n-numbers)
+
+34. 

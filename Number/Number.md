@@ -1088,7 +1088,7 @@ double average_array(int M[],int n){
 
 ---
 
-#### 34. Ước chung lớn nhất dùng Euclid (GCD using Euclid)
+### 34. Ước chung lớn nhất dùng Euclid (GCD using Euclid)
 
 ```c
 #include <stdio.h>
