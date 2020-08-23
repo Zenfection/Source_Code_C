@@ -12,7 +12,7 @@ Như các bạn đã thấy, mình làm tài liệu này dựa trên một ngu�
 
 ## **Mục lục:**
 
-### <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/08/23-20-13-21-icons8_numbers_64px_1.png" alt="icons8_numbers_64px_1.png" width="50"> Number
+## <img title="" src="https://raw.githubusercontent.com/Zenfection/Image/master/2020/08/23-20-13-21-icons8_numbers_64px_1.png" alt="icons8_numbers_64px_1.png" width="50"> Number
 
 ### ——Array
 
