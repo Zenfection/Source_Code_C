@@ -8,24 +8,22 @@ Hàm **void isalnum(int c)** kiểm tra xem ký tự đã truyền có phải l�
 #include <stdio.h>
 #include <ctype.h>
 int main(int argc, char const *argv[]){
-   	char c;
-   	printf("Enter any key : ");
-   	c=getchar();
-   	if (isalnum(c)){
-   		printf("%c is an alphanumeric",c);
-   	}
-   	else{
-   		printf("%c is not an alphanumeric",c);
-   	}
-	return 0;
+       char c;
+       printf("Enter any key : ");
+       c=getchar();
+       if (isalnum(c)){
+           printf("%c is an alphanumeric",c);
+       }
+       else{
+           printf("%c is not an alphanumeric",c);
+       }
+    return 0;
 }
 ```
 
 | Input               | Output                                                                                       |
 | ------------------- | -------------------------------------------------------------------------------------------- |
 | 2<br>d<br>\t<br>" " | is an alphanumeric<br>is an alphanumeric<br>is not an alphanumeric<br>is not an alphanumeric |
-
-
 
 ---
 
@@ -37,16 +35,16 @@ Hàm **void isalnum(int c)** kiểm tra xem ký tự đã truyền có phải l�
 #include <stdio.h>
 #include <ctype.h>
 int main(int argc, char const *argv[]){
-   	char c;
-   	printf("Enter any key : ");
-   	c=getchar();
-   	if (isalnum(c)){
-   		printf("is an alphabet");
-   	}
-   	else{
-   		printf("is not an alphabet");
-   	}
-	return 0;
+       char c;
+       printf("Enter any key : ");
+       c=getchar();
+       if (isalnum(c)){
+           printf("is an alphabet");
+       }
+       else{
+           printf("is not an alphabet");
+       }
+    return 0;
 }
 ```
 
