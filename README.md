@@ -16,7 +16,7 @@ Như các bạn đã thấy, mình làm tài liệu này dựa trên một ngu�
 
 ## [<img title="" src="https://storage.googleapis.com/programminghub/program_icons/5P.png" alt="icons8_list_64px.png" width="50">Array](https://github.com/Zenfection/Source_Code_C/tree/master/Array)
 
-## [<img src="https://storage.googleapis.com/programminghub/program_icons/11P.png" title="" alt="__" width="50">Function](https://github.com/Zenfection/Source_Code_C/tree/master/Fucntion)
+## [<img src="https://storage.googleapis.com/programminghub/program_icons/11P.png" title="" alt="__" width="50">Function](https://github.com/Zenfection/Source_Code_C/tree/master/Function)
 
 ## [<img src="https://storage.googleapis.com/programminghub/program_icons/10P.png" title="" alt="——" width="50">Formula](https://github.com/Zenfection/Source_Code_C/tree/master/Formula)
 
