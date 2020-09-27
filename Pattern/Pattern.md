@@ -28,6 +28,9 @@ int main(int argc, char const *argv[]){
 | ----- | ------------------------------- |
 | 5     | 1<br>01<br>101<br>0101<br>10101 |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
 ## 2. Mẫu kim cương `(Diamond Pattern)`
