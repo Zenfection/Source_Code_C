@@ -1,6 +1,6 @@
 # Pattern
 
-## 1. Mẫu nhị phân (Binary Pattern)
+## 1. Mẫu nhị phân `(Binary Pattern)`
 
 ```c
 #include<stdio.h>
@@ -30,7 +30,7 @@ int main(int argc, char const *argv[]){
 
 ---
 
-## 2. Mẫu kim cương (Diamond Pattern)
+## 2. Mẫu kim cương `(Diamond Pattern)`
 
 ```c
 #include<stdio.h>
@@ -70,7 +70,7 @@ int main(int argc, char const *argv[]){
 
 ---
 
-## 3. Mẫu số kim cương (Diamond of number Pattern)
+## 3. Mẫu số kim cương `(Diamond of number Pattern)`
 
 ```c
 #include<stdio.h>
@@ -106,7 +106,7 @@ int main(int argc, char const *argv[]){
 
 ---
 
-## 4. Mẫu sao kim cương
+## 4. Mẫu sao kim cương `(Star Diamond Pattern)`
 
 ```c
 #include<stdio.h>
@@ -151,7 +151,7 @@ int main(int argc, char const *argv[]){
 
 ---
 
-## 5.Tam giác Floyds (Floys Triangle)
+## 5.Tam giác Floyds `(Floys Triangle)`
 
 ```c
 #include<stdio.h>
@@ -177,7 +177,7 @@ int main(int argc, char const *argv[]){
 
 ---
 
-## 6. Kim cương rỗng (Hollow Diamond)
+## 6. Kim cương rỗng `(Hollow Diamond)`
 
 ```c
 #include<stdio.h>
@@ -220,7 +220,7 @@ int main(int argc, char const *argv[]){
 
 ---
 
-## 7. Hình vuông rõng
+## 7. Hình vuông rõng `(Hollow Square)`
 
 ```c
 #include<stdio.h>
@@ -250,7 +250,7 @@ int main(int argc, char const *argv[]){
 
 ---
 
-## 8. Mẫu đồng hồ cát (Hourglass Pattern)
+## 8. Mẫu đồng hồ cát `(Hourglass Pattern)`
 
 ```c
 #include<stdio.h>
@@ -296,7 +296,7 @@ int main(int argc, char const *argv[]){
 
 ---
 
-## 9. Mẫu số chữ cái (Number alphabet Pattern)
+## 9. Mẫu số chữ cái `(Number alphabet Pattern)`
 
 ```c
 #include<stdio.h>
@@ -328,7 +328,7 @@ int main(int argc, char const *argv[]){
 
 ---
 
-## 10. Mẫu số kim cương (Number Diamond Pattern)
+## 10. Mẫu số kim cương `(Number Diamond Pattern)`
 
 ```c
 #include<stdio.h>
@@ -364,7 +364,7 @@ int main(int argc, char const *argv[]){
 
 ---
 
-## 11. Mẫu hình chữ nhật loại 1 (Rectangle Pattern 1)
+## 11. Mẫu hình chữ nhật loại 1 `(Rectangle Pattern 1)`
 
 ```c
 #include<stdio.h>
@@ -399,35 +399,35 @@ int main(int argc, char const *argv[]){
 
 ---
 
-## 12. Mẫu số loại 1 (Number Pattern 1)
+## 12. Mẫu số loại 1 `(Number Pattern 1)`
 
-## 13. Mẫu số loại 2 (Number Pattern 2)
+## 13. Mẫu số loại 2 `(Number Pattern 2)`
 
-## 14. Mẫu số loại 3 (Number Pattern 3)
+## 14. Mẫu số loại 3 `(Number Pattern 3)`
 
-## 15. Mẫu số loại 4 (Number Pattern 4)
+## 15. Mẫu số loại 4 `(Number Pattern 4)`
 
-## 16. Kim tự tháp số (Number Pyramid)
+## 16. Kim tự tháp số `(Number Pyramid)`
 
-## 17.Tam giác pascal không sử dụng hàm riêng (Pascal's Triangle Without Using Function)
+## 17.Tam giác pascal không sử dụng hàm riêng `(Pascal's Triangle Without Using Function)`
 
-## 18. Mẫu loại 1 (Pattern 1)
+## 18. Mẫu loại 1 `(Pattern 1)`
 
-## 19. Mẫu loại 2 (Pattern 2)
+## 19. Mẫu loại 2 `(Pattern 2)`
 
-## 20. Mẫu loại 3 (Pattern 3)
+## 20. Mẫu loại 3 `(Pattern 3)`
 
-## 21. Mẫu loại 4 (Pattern 4)
+## 21. Mẫu loại 4 `(Pattern 4)`
 
-## 22. Mẫu loại 5 (Pattern 5)
+## 22. Mẫu loại 5 `(Pattern 5)`
 
-## 23. Mẫu loại 6 (Pattern 6)
+## 23. Mẫu loại 6 `(Pattern 6)`
 
-## 24. Mẫu loại 7 (Pattern 7)
+## 24. Mẫu loại 7 `(Pattern 7)`
 
-## 25. Mẫu loại 8 (Pattern 8)
+## 25. Mẫu loại 8 `(Pattern 8)`
 
-## 26. Mẫu loại 9 (Pattern 9)
+## 26. Mẫu loại 9 `(Pattern 9)`
 
 ## 27. Mẫu loại 10 `(Pattern 10)`
 
