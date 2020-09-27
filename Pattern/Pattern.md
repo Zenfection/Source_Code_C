@@ -873,7 +873,7 @@ int main(int argc, char const *argv[]){
 
 ---
 
-## 29. Tam giác chỉ có đường viền `(Triangle with only Border)`
+## 28. Tam giác chỉ có đường viền `(Triangle with only Border)`
 
 ```c
 #include<stdio.h>
@@ -915,7 +915,7 @@ int main(int argc, char const *argv[]){
 
 ---
 
-## 30. Mẫu X `(X Pattern)`
+## 29. Mẫu X `(X Pattern)`
 
 ```c
 #include<stdio.h>
