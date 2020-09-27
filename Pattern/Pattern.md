@@ -402,132 +402,317 @@ int main(int argc, char const *argv[]){
 ## 12. Mẫu số loại 1 `(Number Pattern 1)`
 
 ```c
-
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter number of rows : ");
+    scanf("%d",&n);
+    for (int i = 1; i <= n; i++){
+        for (int j = n; j >= 1; j--){
+            if (j <= i){
+                printf("%d", j);
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                                                                     |
+| ----- | -------------------------------------------------------------------------- |
+| 5     | <br>           1<br/>         21<br/>       321<br/>     4321<br/>   54321 |
 
 ---
 
-## ## 13. Mẫu số loại 2 `(Number Pattern 2)`
+## 13. Mẫu số loại 2 `(Number Pattern 2)`
 
 ```c
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter number of rows : ");
+    scanf("%d",&n);
+    for (int i = 1; i <= n; i++){
+        for (int j = 1; j <= n; j++){
+            if (j <= i)
+                printf("%d", j);
+            else
+                printf(" ");
+        }
 
+        for (int j = n; j >= 1; j--){
+            if (j <= i)
+                printf("%d", j);
+            else
+                printf(" ");
+        }
+        printf("\n");
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                                                                                 |
+| ----- | -------------------------------------------------------------------------------------- |
+| 5     | 1                1<br>12            21<br>123        321<br>1234    4321<br>1234554321 |
 
 ---
 
 ## 14. Mẫu số loại 3 `(Number Pattern 3)`
 
 ```c
-
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter number of lines : ");
+    scanf("%d", &n);
+    for (int i = 1; i <= n; i++){
+        for (int j = i; j >= 1; j--){
+            printf("%d", j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                 |
+| ----- | ---------------------- |
+| 4     | 1<br>21<br>321<br>4321 |
 
 ---
 
 ## 15. Mẫu số loại 4 `(Number Pattern 4)`
 
 ```c
-
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter number of rows : ");
+    scanf("%d",&n);
+    for (int i = 1; i <= 5; i++){
+        for (int j = 1; j <= i; j++){
+            printf("%d", j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                          |
+| ----- | ------------------------------- |
+| 5     | 1<br>12<br>123<br>1234<br>12345 |
 
 ---
 
 ## 16. Kim tự tháp số `(Number Pyramid)`
 
 ```c
+#include <stdio.h>
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter the number of rows : ");
+    scanf("%d", &n);
+    int num=1;
+    int space = n - 1;
 
+    for (int i = 1; i <= n; i++){
+        num = i;
+        for (int c = 1; c <= space; c++){
+            printf(" ");
+        }
+        space--;
+        for (int c = 1; c <= i; c++){
+            printf("%d", num);
+            num++;
+        }
+        num-=2;
+        for (int c = 1; c < i; c++){
+            printf("%d", num);
+            num--;
+        }
+        printf("\n");
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                                                            |
+| ----- | ----------------------------------------------------------------- |
+| 5     | <br>        1<br>      232<br>    34543<br>  4567654<br>567898765 |
 
 ---
 
 ## 17.Tam giác pascal không sử dụng hàm riêng `(Pascal's Triangle Without Using Function)`
 
 ```c
+#include<stdio.h>
+int main(int argc, char const *argv[]){
+    int n, a, num;
 
+    printf("Enter n : ");
+    scanf("%d", &n);
+    num = n;
+    for (int i = 0; i <= n; i++){
+        a = 1;
+        for (int j = num; j >= 0; j--){
+            printf(" ");
+        }
+        num--;
+        for (int k = 0; k <= i; k++){
+            printf("%d ", a);
+            a = (a*(i-k)/(k+1));
+        }
+        printf("\n");
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                                                        |
+| ----- | ------------------------------------------------------------- |
+| 4     | <br>      1<br>     1 1<br>   1 2 1<br>  1 3 3 1<br>1 4 6 4 1 |
 
 ---
 
 ## 18. Mẫu loại 1 `(Pattern 1)`
 
 ```c
-
+#include<stdio.h>
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter number of rows : ");
+    scanf("%d", &n);
+    for (int i = 1; i <= n; i++){
+        for (int j = 1; j <= i; j++){
+            printf("#");
+        }
+        printf("\n");
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                          |
+| ----- | ------------------------------- |
+| 5     | #<br>##<br>###<br>####<br>##### |
 
 ---
 
 ## 19. Mẫu loại 2 `(Pattern 2)`
 
 ```c
+#include<stdio.h>
+int main(int argc, char const *argv[]){
+    int n,count = 1;
+    printf("Enter number of rows : ");
+    scanf("%d", &n);
+    int space = n;
 
+    for (int i = 1; i <= n; i++){
+        for (int j = 1; j < space; j++){
+            printf(" ");
+        }
+        for (int j = 1; j <= i; j++){
+            printf("#");
+            if (i > 1 && count < i){
+                printf("A");
+                count++;
+            }
+        }
+        printf("\n");
+        space--;
+        count = 1;
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                                                                |
+| ----- | --------------------------------------------------------------------- |
+| 5     | <br>        #<br>      #A#<br>    #A#A#<br>  #A#A#A#<br>#A#A#A#A#<br> |
 
 ---
 
 ## 20. Mẫu loại 3 `(Pattern 3)`
 
 ```c
-
+#include<stdio.h>
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter value of n : ");
+    scanf("%d", &n);
+    int c = 'A';
+    for (int i = 0; i < n; i++){
+        for (int j = 0; j <= i; j++){
+            printf("%c", c);
+            c = c + 1;
+        }
+        printf("\n");
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                          |
+| ----- | ------------------------------- |
+| 5     | A<br>BC<br>DEF<br>GHIJ<br>KLMNO |
 
 ---
 
 ## 21. Mẫu loại 4 `(Pattern 4)`
 
 ```c
-
+#include<stdio.h>
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter number of rows : ");
+    scanf("%d", &n);
+    for (int i = 1; i <= n; i++){
+        for (int j = 1; j <= i; j++){
+            printf("%d", j);
+        }
+        for (int j = i - 1; j >= 1; j--){
+            printf("%d", j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                                    |
+| ----- | ----------------------------------------- |
+| 5     | 1<br>121<br>12321<br>1234321<br>123454321 |
 
 ---
 
 ## 22. Mẫu loại 5 `(Pattern 5)`
 
 ```c
-
+#include<stdio.h>
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter number of rows : ");
+    scanf("%d", &n);
+    for (int i = n; i >= 1; i--){
+        for (int j = 1; j <= i; j++){
+            printf("#");
+        }
+        printf("\n");
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                          |
+| ----- | ------------------------------- |
+| 5     | #####<br>####<br>###<br>##<br># |
 
 ---
 
@@ -546,24 +731,59 @@ int main(int argc, char const *argv[]){
 ## 24. Mẫu loại 7 `(Pattern 7)`
 
 ```c
-
+#include<stdio.h>
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter the number of lines : ");
+    scanf("%d", &n);
+    for (int i = 1; i <= n; i++){
+        for (int j = 1; j <= i; j++){
+            printf("*");
+        }
+        for (int k = i; k <= i; k++){
+            printf(" ");
+        }
+        for (int l = 1; l <= i; l++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                               |
+| ----- | ------------------------------------ |
+| 4     | # #<br>## ##<br>### ###<br>#### #### |
 
 ---
 
 ## 25. Mẫu loại 8 `(Pattern 8)`
 
 ```c
-
+#include<stdio.h>
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter number of lines : ");
+    scanf("%d", &n);
+    int a=0;
+    printf("\n");
+    for (int i = 1; i <= n; i++){
+        for (int j = 1; j <= n; j++){
+            if (i == j)
+                printf("%d ", a);
+            else
+                printf("%d ", i);
+        }
+        printf("\n");
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                                                        |
+| ----- | ------------------------------------------------------------- |
+| 5     | 0 1 1 1 1<br>2 0 2 2 2<br>3 3 0 3 3<br>4 4 4 0 4<br>5 5 5 5 0 |
 
 ---
 
@@ -594,12 +814,29 @@ int main(int argc, char const *argv[]){
 ## 28. Kim tự tháp `(Pyramid)`
 
 ```c
-
+#include<stdio.h>
+int main(int argc, char const *argv[]){
+    int n, temp;
+    printf("Enter the number of rows : ");
+    scanf("%d", &n);
+    temp = n;
+    for (int row = 1; row <= n; row++){
+        for (int c = 1; c < temp; c++){
+            printf(" ");
+        }
+        temp--;
+        for (int c = 1; c <= (2*row)-1; c++){
+            printf("#");
+        }
+        printf("\n");
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                                                                      |
+| ----- | --------------------------------------------------------------------------- |
+| 5     | <br>            #<br>         ###<br>      #####<br>   #######<br>######### |
 
 ---
 
