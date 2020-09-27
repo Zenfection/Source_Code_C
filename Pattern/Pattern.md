@@ -5,22 +5,22 @@
 ```c
 #include<stdio.h>
 int main(int argc, char const *argv[]){
-	int n;
-	printf("Enter n = ");scanf("%d",&n);
+    int n;
+    printf("Enter n = ");scanf("%d",&n);
     int count = 1;
     for (int i = 1; i <= n; i++){
         for (int j = 1; j <= i; j++){
             printf("%d", count++ % 2);
-            	if (j == i && i != n){
-                	printf("\n");
-            	}
+                if (j == i && i != n){
+                    printf("\n");
+                }
         }
         if (i % 2 == 0)
             count = 1;
         else
             count = 0;
     }
-	return 0;
+    return 0;
 }
 ```
 
@@ -35,7 +35,7 @@ int main(int argc, char const *argv[]){
 ```c
 #include<stdio.h>
 int main(int argc, char const *argv[]){
-	int n, space = 1;
+    int n, space = 1;
     printf("Enter number of rows : ");
     scanf("%d", &n);
     space = n - 1;
@@ -60,7 +60,7 @@ int main(int argc, char const *argv[]){
         }
         printf("\n");
     }
-	return 0;
+    return 0;
 }
 ```
 
@@ -75,9 +75,9 @@ int main(int argc, char const *argv[]){
 ```c
 #include<stdio.h>
 int main(int argc, char const *argv[]){
-	int n;
-	printf("Enter number of rows : ");
-	scanf("%d",&n);
+    int n;
+    printf("Enter number of rows : ");
+    scanf("%d",&n);
     for (int i = 1; i <= n; i++){
         for (int j = i; j < n; j++){
             printf(" ");
@@ -96,7 +96,7 @@ int main(int argc, char const *argv[]){
         }
         printf("\n");
     }
-	return 0;
+    return 0;
 }
 ```
 
@@ -111,9 +111,9 @@ int main(int argc, char const *argv[]){
 ```c
 #include<stdio.h>
 int main(int argc, char const *argv[]){
-	int n;
-	printf("Enter of number rows : ");
-	scanf("%d",&n);
+    int n;
+    printf("Enter of number rows : ");
+    scanf("%d",&n);
     for (int i = 1; i <= n; i++){
         for (int j = n; j > i; j--){
             printf(" ");
@@ -139,9 +139,9 @@ int main(int argc, char const *argv[]){
         if (i == 1)
             printf("\n");
         else
-        	printf("*\n");
+            printf("*\n");
     }
-	return 0;
+    return 0;
 }
 ```
 
@@ -156,7 +156,7 @@ int main(int argc, char const *argv[]){
 ```c
 #include<stdio.h>
 int main(int argc, char const *argv[]){
-	int n;
+    int n;
     printf("Enter the number of rows : ");
     scanf("%d",&n);
     int a=1;
@@ -167,7 +167,7 @@ int main(int argc, char const *argv[]){
         }
         printf("\n");
     }
-	return 0;
+    return 0;
 }
 ```
 
@@ -182,9 +182,9 @@ int main(int argc, char const *argv[]){
 ```c
 #include<stdio.h>
 int main(int argc, char const *argv[]){
-	int n;
-	printf("Enter number of rows : ");
-	scanf("%d",&n);
+    int n;
+    printf("Enter number of rows : ");
+    scanf("%d",&n);
     for (int i = 1; i <= n; i++){
         for (int j = 1; j <= n+1-i; j++){
             printf("*");
@@ -197,7 +197,7 @@ int main(int argc, char const *argv[]){
         }
         printf("\n");
     }
-    
+
     for (int i = 2; i <= n; i++){
         for (int j = 1; j <= i; j++){
             printf("*");
@@ -210,7 +210,7 @@ int main(int argc, char const *argv[]){
         }
         printf("\n");
     }
-	return 0;
+    return 0;
 }
 ```
 
@@ -225,7 +225,7 @@ int main(int argc, char const *argv[]){
 ```c
 #include<stdio.h>
 int main(int argc, char const *argv[]){
-	int n;
+    int n;
     printf("Enter value of n : ");
     scanf("%d", &n);
     printf("\n");
@@ -240,7 +240,7 @@ int main(int argc, char const *argv[]){
         }
         printf("\n");
     }
-	return 0;
+    return 0;
 }
 ```
 
@@ -255,7 +255,7 @@ int main(int argc, char const *argv[]){
 ```c
 #include<stdio.h>
 int main(int argc, char const *argv[]){
-	int num, n;
+    int num, n;
     printf("Enter number of rows: ");
     scanf("%d", &num);
     printf("\n");
@@ -286,7 +286,7 @@ int main(int argc, char const *argv[]){
         }
         printf("\n");
     }
-	return 0;
+    return 0;
 }
 ```
 
@@ -301,7 +301,7 @@ int main(int argc, char const *argv[]){
 ```c
 #include<stdio.h>
 int main(int argc, char const *argv[]){
-	int n;
+    int n;
     int i = 1;
     char ch = 'A';
     printf("Enter no. of rows : ");
@@ -318,7 +318,7 @@ int main(int argc, char const *argv[]){
         }
         printf("\n");
     }
-	return 0;
+    return 0;
 }
 ```
 
@@ -333,9 +333,9 @@ int main(int argc, char const *argv[]){
 ```c
 #include<stdio.h>
 int main(int argc, char const *argv[]){
-	int n;
-	printf("Enter number of rows : ");
-	scanf("%d",&n);
+    int n;
+    printf("Enter number of rows : ");
+    scanf("%d",&n);
     for(int i = 1;i <= n;i++){
         for(int j = i;j < n;j++){
             printf(" ");
@@ -354,7 +354,7 @@ int main(int argc, char const *argv[]){
         }
         printf("\n");
     }
-	return 0;
+    return 0;
 }
 ```
 
@@ -369,7 +369,7 @@ int main(int argc, char const *argv[]){
 ```c
 #include<stdio.h>
 int main(int argc, char const *argv[]){
-	int n;
+    int n;
     printf("Enter number of rows : ");
     scanf("%d", &n);
     printf("\n");
@@ -389,7 +389,7 @@ int main(int argc, char const *argv[]){
         }
         printf("\n");
     }
-	return 0;
+    return 0;
 }
 ```
 
@@ -401,36 +401,274 @@ int main(int argc, char const *argv[]){
 
 ## 12. Mẫu số loại 1 `(Number Pattern 1)`
 
-## 13. Mẫu số loại 2 `(Number Pattern 2)`
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+## ## 13. Mẫu số loại 2 `(Number Pattern 2)`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
 
 ## 14. Mẫu số loại 3 `(Number Pattern 3)`
 
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
 ## 15. Mẫu số loại 4 `(Number Pattern 4)`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
 
 ## 16. Kim tự tháp số `(Number Pyramid)`
 
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
 ## 17.Tam giác pascal không sử dụng hàm riêng `(Pascal's Triangle Without Using Function)`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
 
 ## 18. Mẫu loại 1 `(Pattern 1)`
 
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
 ## 19. Mẫu loại 2 `(Pattern 2)`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
 
 ## 20. Mẫu loại 3 `(Pattern 3)`
 
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
 ## 21. Mẫu loại 4 `(Pattern 4)`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
 
 ## 22. Mẫu loại 5 `(Pattern 5)`
 
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
 ## 23. Mẫu loại 6 `(Pattern 6)`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
 
 ## 24. Mẫu loại 7 `(Pattern 7)`
 
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
 ## 25. Mẫu loại 8 `(Pattern 8)`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
 
 ## 26. Mẫu loại 9 `(Pattern 9)`
 
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
 ## 27. Mẫu loại 10 `(Pattern 10)`
 
-## 28. Kim tự tháp (Pyramid)
+```c
 
-## 29.
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+## 28. Kim tự tháp `(Pyramid)`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+## 29. Mẫu hình vuông `(Rectangle Pattern)`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+## 30. Mẫu tam giác ngược `(Reverse Triangle Pattern)`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+## 31.Mẫu hình thoi `(Rhombus Pattern)`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+## 32. Mẫu hình diều `(Square Kite Pattern)`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+## 33. Tam giác chỉ có đường viền `(Triangle with only Border)`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+## 34. Mẫu X `(X Pattern)`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
