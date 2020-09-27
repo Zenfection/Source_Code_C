@@ -28,8 +28,8 @@ int main(int argc, char const *argv[]){
 | ----- | --------------------- |
 | 6     | 6 is a perfect number |
 
-| [Chạy thử](https://repl.it/@Zenfection/perfect-number) |
-| ------------------------------------------------------ |
+| [Chạy thử](https://repl.it/join/jkowijyw-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -342,8 +342,8 @@ int sum_digits(int n){
 | ----- | ------ |
 | 123   | 6      |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/tnvowqxy-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -387,8 +387,8 @@ int check_prime(int n){
 | ----- | ------------- |
 | 6     | 2 3 5 7 11 13 |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/utpenfoa-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -416,8 +416,8 @@ int main(int argc, char const *argv[]){
 | ------------ | ------ |
 | 4<br>1 2 3 4 | 10     |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/khhuoyog-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -445,8 +445,8 @@ int main(int argc, char const *argv[]){
 | ------------ | ------ |
 | 4<br>5 6 7 8 | 26     |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/xvftwnfb-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -482,8 +482,8 @@ int check_prime(int n){
 | ----- | ------------------- |
 | 7     | 7 is a prime number |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/ljpinsbb-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -516,8 +516,8 @@ int main(int argc, char const *argv[]){
 | ----- | ---------------------------- |
 | 12321 | 12321 is a palindrome number |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/fxazpwap-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -544,8 +544,8 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 5 3   | 3 5    |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/detwalcp-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -570,8 +570,8 @@ int main(int argc, char const *argv[]){
 | ----- | ----------- |
 | 5     | 1 4 9 16 25 |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/ivoinzaz-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -597,8 +597,8 @@ int main(int argc, char const *argv[]){
 | ----- | --------- |
 | 26    | 1 2 13 26 |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/vnjsdpyq-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -632,8 +632,8 @@ int main(int argc, char const *argv[]){
 | ----- | ---------------- |
 | 9     | 9 is neon number |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/zmsisbqk-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -667,8 +667,8 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 45 1  | 0.7047 |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/ojnuxkcn-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -692,8 +692,8 @@ int main(int argc, char const *argv[]){
 | ----- | ---------- |
 | 5     | 6 7 8 9 10 |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/otytlhta-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -718,8 +718,8 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 5     | 55     |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/rxvatqxh-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -741,8 +741,8 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 5 8 4 | 8      |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/uouvjmfn-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -772,8 +772,8 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 3 5   | 5 3    |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/kpbekgex-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -800,8 +800,8 @@ int main(int argc, char const *argv[]){
 | --------------- | ------ |
 | 5 <br>1 6 7 4 2 | 20     |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/kpqzegfr-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -854,8 +854,8 @@ int check_armtrong(int n){
 | ----- | ----------------- |
 | 500   | 1 153 370 371 407 |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/zonrahnf-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -899,8 +899,8 @@ double friendly(int n){
 | ------ | ------------------------------ |
 | 30 140 | 30 and 140 are Friendly number |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/zvmgxqhs-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -935,8 +935,8 @@ int amicable(int n){
 | ------- | ------------------------------- |
 | 220 284 | 220 and 284 are Amicable number |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/heiqnhwc-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -963,8 +963,8 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 3 5   | 5 3    |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/darlgsmb-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -1004,8 +1004,8 @@ int check_prime(int n){
 | ----- | ------------------------------------ |
 | 10    | 2 3 5 7 11 13 17 19 23 29<br>sum=129 |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/bwjzncio-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -1044,8 +1044,8 @@ int max_array(int M[],int n){
 | ----------------- | ------ |
 | 5<br>12 56 8 2 34 | 56     |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/dxoqrpvc-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -1083,8 +1083,8 @@ double average_array(int M[],int n){
 | ------------------ | ------ |
 | 5<br>12 10 53 7 39 | 24.20  |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/ytupwaoj-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -1110,8 +1110,8 @@ int GCD(int a,int b){
 | ----- | ------ |
 | 24 56 | 8      |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/zpesjpfm-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -1145,8 +1145,8 @@ int factorial(int n){
 | ----- | -------- |
 | 5     | 2.708333 |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/mwjvzdkd-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -1168,8 +1168,8 @@ int main(int argc, char const *argv[]){
 | ----- | ------ |
 | 25    | 5      |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/rrvncwbu-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -1192,8 +1192,8 @@ int main(int argc, char const *argv[]){
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 7     | 7 * 1 = 7<br/>7 * 2 = 14<br/>7 * 3 = 21<br/>7 * 4 = 28<br/>7 * 5 = 35<br/>7 * 6 = 42<br/>7 * 7 = 49<br/>7 * 8 = 56<br/>7 * 9 = 63<br/>7 * 10 = 70 |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/mejbsecy-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -1227,8 +1227,8 @@ int check_prime(int n){
 | ----- | -------------------------------- |
 | 10 50 | 11 13 17 19 23 29 31 37 41 43 47 |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/swtcbgga-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -1259,8 +1259,8 @@ int fibonacci(int n){
 | ----- | ------------------------------------------------ |
 | 8     | 0 1 1         2       3       5       8       13 |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/oetugyiu-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -1293,8 +1293,8 @@ int main(int argc, char const *argv[]){
 | ----- | --------- |
 | 5 6   | 91.416667 |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/iuiplrdf-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -1410,8 +1410,8 @@ void postdigit(char c, int n){
 | ----- | ------ |
 | 66    | LXVI   |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/nowpyhvv-zenfection) |
+| ---------------------------------------------------- |
 
 ----
 
@@ -1451,8 +1451,8 @@ int sum_digit(int n){
 | ----- | -------------------- |
 | 18    | 18 is a niven number |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/sznbwfpo-zenfection) |
+| ---------------------------------------------------- |
 
 ---
 
@@ -1476,5 +1476,5 @@ int main(int argc, char const *argv[]){
 | ----- | -------------------- |
 | 4.25  | 4.25 is float number |
 
-| [Chạy thử]() |
-| ------------ |
+| [Chạy thử](https://repl.it/join/ntfhipwt-zenfection) |
+| ---------------------------------------------------- |
