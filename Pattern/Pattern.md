@@ -399,4 +399,38 @@ int main(int argc, char const *argv[]){
 
 ---
 
-## 12.
+## 12. Mẫu số loại 1 (Number Pattern 1)
+
+## 13. Mẫu số loại 2 (Number Pattern 2)
+
+## 14. Mẫu số loại 3 (Number Pattern 3)
+
+## 15. Mẫu số loại 4 (Number Pattern 4)
+
+## 16. Kim tự tháp số (Number Pyramid)
+
+## 17.Tam giác pascal không sử dụng hàm riêng (Pascal's Triangle Without Using Function)
+
+## 18. Mẫu loại 1 (Pattern 1)
+
+## 19. Mẫu loại 2 (Pattern 2)
+
+## 20. Mẫu loại 3 (Pattern 3)
+
+## 21. Mẫu loại 4 (Pattern 4)
+
+## 22. Mẫu loại 5 (Pattern 5)
+
+## 23. Mẫu loại 6 (Pattern 6)
+
+## 24. Mẫu loại 7 (Pattern 7)
+
+## 25. Mẫu loại 8 (Pattern 8)
+
+## 26. Mẫu loại 9 (Pattern 9)
+
+## 27. Mẫu loại 10 `(Pattern 10)`
+
+## 28. Kim tự tháp (Pyramid)
+
+## 29.
