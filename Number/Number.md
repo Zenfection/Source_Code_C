@@ -1291,7 +1291,7 @@ int main(int argc, char const *argv[]){
 
 | Input | Output    |
 | ----- | --------- |
-| 5 6   | 91.416664 |
+| 5 6   | 91.416667 |
 
 | [Chạy thử]() |
 | ------------ |
