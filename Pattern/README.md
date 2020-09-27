@@ -31,5 +31,5 @@
 25. [Kim tự tháp](https://github.com/Zenfection/Source_Code_C/blob/master/Pattern/Pattern.md#25-kim-tự-tháp-pyramid)
 26. [Mẫu tam giác ngược](https://github.com/Zenfection/Source_Code_C/blob/master/Pattern/Pattern.md#26-mẫu-tam-giác-ngược-reverse-triangle-pattern)
 27. [Mẫu hình thoi](https://github.com/Zenfection/Source_Code_C/blob/master/Pattern/Pattern.md#27mẫu-hình-thoi-rhombus-pattern)
-29. [Tam giác chỉ có đường viền](https://github.com/Zenfection/Source_Code_C/blob/master/Pattern/Pattern.md#29-tam-giác-chỉ-có-đường-viền-triangle-with-only-border)
-29. []()
+28. [Tam giác chỉ có đường viền](https://github.com/Zenfection/Source_Code_C/blob/master/Pattern/Pattern.md#28-tam-giác-chỉ-có-đường-viền-triangle-with-only-border)
+29. [Mẫu X](https://github.com/Zenfection/Source_Code_C/blob/master/Pattern/Pattern.md#29-mẫu-x-x-pattern)
