@@ -1467,7 +1467,7 @@ int main(int argc, char const *argv[]){
     if(n-(int)n==0)
         printf("n is a integer number");
     else
-        printf("n is not a integer number");
+        printf("n is a float number");
     return 0;
 }
 ```
