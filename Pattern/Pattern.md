@@ -719,18 +719,6 @@ int main(int argc, char const *argv[]){
 ## 23. Mẫu loại 6 `(Pattern 6)`
 
 ```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-## 24. Mẫu loại 7 `(Pattern 7)`
-
-```c
 #include<stdio.h>
 int main(int argc, char const *argv[]){
     int n;
@@ -758,7 +746,7 @@ int main(int argc, char const *argv[]){
 
 ---
 
-## 25. Mẫu loại 8 `(Pattern 8)`
+## 24. Mẫu loại 7 `(Pattern 7)`
 
 ```c
 #include<stdio.h>
@@ -781,37 +769,13 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input | Output                                                        |
-| ----- | ------------------------------------------------------------- |
-| 5     | 0 1 1 1 1<br>2 0 2 2 2<br>3 3 0 3 3<br>4 4 4 0 4<br>5 5 5 5 0 |
+| Input | Output                                                                                          |
+| ----- | ----------------------------------------------------------------------------------------------- |
+| 5     | 0 1 1 1 1<br>2 0 2 2 2<br>3 3 0 3 3<br>4 4 4 0 4<br>5 5 5 5 0---## 25. Mẫu loại 8 `(Pattern 8)` |
 
 ---
 
-## 26. Mẫu loại 9 `(Pattern 9)`
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-## 27. Mẫu loại 10 `(Pattern 10)`
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-## 28. Kim tự tháp `(Pyramid)`
+## 25. Kim tự tháp `(Pyramid)`
 
 ```c
 #include<stdio.h>
@@ -840,72 +804,152 @@ int main(int argc, char const *argv[]){
 
 ---
 
-## 29. Mẫu hình vuông `(Rectangle Pattern)`
+## 26. Mẫu tam giác ngược `(Reverse Triangle Pattern)`
 
 ```c
-
+#include<stdio.h>
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter number of rows : ");
+    scanf("%d",&n);
+    for (int i = n; i >= 1; i--){
+        for (int j = n; j > i; j--){
+            printf(" ");
+        }
+        for (int k = 1; k < (i*2); k++){
+            printf("#");
+        }
+        printf("\n");
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                                       |
+| ----- | -------------------------------------------- |
+| 4     | ########<br>  ######<br>    ####<br>       # |
 
 ---
 
-## 30. Mẫu tam giác ngược `(Reverse Triangle Pattern)`
+## 27.Mẫu hình thoi `(Rhombus Pattern)`
 
 ```c
+#include<stdio.h>
+int main(int argc, char const *argv[]){
+    int num, j;
+    printf("Enter maximum number : ");
+    scanf("%d", &num);
 
+    for (int i = 1; i <= num; i++){
+        for (j = num - i; j >= 1; j--){
+            printf(" ");
+        }
+        printf("%d", i);
+        for (int j = i * 2; j > 1; j--){
+            printf(" ");
+        }
+        printf("%d", i);
+        printf("\n");
+    }
+
+    for (int i = 1, n = num - 1; i < num; i++, n--){
+        for (int j = i; j >= 1; j--){
+            printf(" ");
+        }
+        printf("%d", n);
+        for (int j = n * 2; j > 1; j--){
+            printf(" ");
+        }
+        printf("%d", n);
+        printf("\n");
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                                                                                                                                  |
+| ----- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 4     | <br>         1 1<br>      2      2<br>   3            3 <br>4                  4<br>   3            3<br>      2      2<br>         1 1 |
 
 ---
 
-## 31.Mẫu hình thoi `(Rhombus Pattern)`
+## 29. Tam giác chỉ có đường viền `(Triangle with only Border)`
 
 ```c
-
+#include<stdio.h>
+void drawTriangle(char border, char filler, int length){
+    int start = 2;
+    int base = 4;
+    int j, b;
+    for (int i = start; i <= length; i++){
+        for (int j = 0; j <= length - i; j++){
+            printf(" ");
+        }
+        if (i > start){
+            printf("%c ", border);
+        }
+        if (i > start){
+            for (b = base; b <= i; b++){
+                printf("%c ", filler);
+            }
+        }
+        printf("%c \n", border);
+    }
+    for (j = base; j < length+base; j++){
+        printf("%c ", border);
+    }
+    printf("\n");
+}
+int main(int argc, char const *argv[]){
+    int length;
+    printf("Enter number of lengths : ");
+    scanf("%d",&le);
+    drawTriangle('#', ' ', length);
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                                                                          |
+| ----- | ------------------------------------------------------------------------------- |
+| 5     | <br>        #<br>      #  #<br>    #      #<br>  #           #<br>#  #  #  #  # |
 
 ---
 
-## 32. Mẫu hình diều `(Square Kite Pattern)`
+## 30. Mẫu X `(X Pattern)`
 
 ```c
-
+#include<stdio.h>
+int main(int argc, char const *argv[]){
+    int n;
+    printf("Enter n = ");scanf("%d",&n);
+    int k=1;
+    int M[50][50] = {0};
+    for (int i = 1; i <= n; i++){
+        for (int j = 1; j <= n; j++){
+            if (j == i || n+1-i == j){
+                M[i-1][j-1] = k;
+            }
+        }
+        if (i < (n/2)+1)
+            k++;
+        else
+            --k;
+    }
+    for (int i = 0; i < n; i++){
+        for (int j = 0; j < n; j++){
+            if (M[i][j] == 0){
+                printf(" ");
+            }
+            else{
+                printf("%d", M[i][j]);
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-## 33. Tam giác chỉ có đường viền `(Triangle with only Border)`
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
-
----
-
-## 34. Mẫu X `(X Pattern)`
-
-```c
-
-```
-
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input | Output                                                                                                     |
+| ----- | ---------------------------------------------------------------------------------------------------------- |
+| 6     | 1             1<br>  2        2<br>    3    3<br>      44<br>    3    3<br>  2        2<br>1             1 |
