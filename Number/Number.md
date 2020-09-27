@@ -514,7 +514,7 @@ int main(int argc, char const *argv[]){
 
 | Input | Output                       |
 | ----- | ---------------------------- |
-| 12321 | 12321 is a palindrone number |
+| 12321 | 12321 is a palindrome number |
 
 | [Chạy thử]() |
 | ------------ |
@@ -560,7 +560,7 @@ int main(int argc, char const *argv[]){
     scanf("%d",&n);
     for (int i = 1; i <= n; i++){
         int square=pow(i,2);
-        printf("Square of %d is %d\n",n,square);
+        printf("Square of %d is %d\n",i,square);
     }
     return 0;
 }
