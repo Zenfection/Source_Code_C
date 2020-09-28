@@ -113,9 +113,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input  | Output                              |
-| ------ | ----------------------------------- |
-| h<br>2 | |h\| is digit<br>\|2\| is not digit |
+| Input      | Output                                   |
+| ---------- | ---------------------------------------- |
+| <br>h<br>2 | <br>\|h\| is digit<br>\|2\| is not digit |
 
 | [Chạy thử]() |
 | ------------ |
@@ -141,9 +141,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input          | Output                                                                 |
-| -------------- | ---------------------------------------------------------------------- |
-| 3<br>h<br>'  ' | |3\| can be printed<br>\|h\| can be printed<br>\|  \| can't be printed |
+| Input              | Output                                                                      |
+| ------------------ | --------------------------------------------------------------------------- |
+| <br>3<br>h<br>'  ' | <br>\|3\| can be printed<br>\|h\| can be printed<br>\|  \| can't be printed |
 
 | [Chạy thử]() |
 | ------------ |
@@ -169,9 +169,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input       | Output                                                                                              |
-| ----------- | --------------------------------------------------------------------------------------------------- |
-| a<br>Q<br>3 | |a\| is lowercase character<br>\|Q\| is not lowercase character<br>\|3\| is not lowercase character |
+| Input           | Output                                                                                                   |
+| --------------- | -------------------------------------------------------------------------------------------------------- |
+| <br>a<br>Q<br>3 | <br>\|a\| is lowercase character<br>\|Q\| is not lowercase character<br>\|3\| is not lowercase character |
 
 | [Chạy thử]() |
 | ------------ |
@@ -197,9 +197,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input                 | Output |
-| --------------------- | ------ |
-| 3<br>k<br>' '<br>'\t' |        |
+| Input                     | Output                                                                                                        |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| <br>3<br>k<br>' '<br>'\t' | <br>\|3\| can be printed<br>\|k\| can be printed<br>\|  \| can't  be printed<br>\|        \| can't be printed |
 
 | [Chạy thử]() |
 | ------------ |
@@ -225,9 +225,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input                | Output                                                                                                                                              |
-| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| t<br>1<br>!<br>.<br> | |t\| is not a punctuation character<br>\|1\| is not a punctuation character<br>\|!\| is a punctuation character<br>\|.\| is a punctuation character |
+| Input                    | Output                                                                                                                                                   |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <br>t<br>1<br>!<br>.<br> | <br>\|t\| is not a punctuation character<br>\|1\| is not a punctuation character<br>\|!\| is a punctuation character<br>\|.\| is a punctuation character |
 
 | [Chạy thử]() |
 | ------------ |
@@ -253,9 +253,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input                | Output                                                                                                                                                      |
-| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1<br>t<br>\t<br>'  ' | |1\| is not a white-space character<br>\|t\| is not a white-space character<br>\|        \| is a white-space character<br>\|  \| is a white-space character |
+| Input                    | Output                                                                                                                                                           |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <br>1<br>t<br>\t<br>'  ' | <br>\|1\| is not a white-space character<br>\|t\| is not a white-space character<br>\|        \| is a white-space character<br>\|  \| is a white-space character |
 
 | [Chạy thử]() |
 | ------------ |
@@ -281,9 +281,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input       | Output                                                                                              |
-| ----------- | --------------------------------------------------------------------------------------------------- |
-| 4<br>Q<br>t | |4\| is not upperCase character<br>\|Q\| is upperCase character<br>\|t\| is not upperCase character |
+| Input           | Output                                                                                                   |
+| --------------- | -------------------------------------------------------------------------------------------------------- |
+| <br>4<br>Q<br>t | <br>\|4\| is not upperCase character<br>\|Q\| is upperCase character<br>\|t\| is not upperCase character |
 
 | [Chạy thử]() |
 | ------------ |
