@@ -253,9 +253,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input                | Output                                                                                                                           |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| 1<br>t<br>\t<br>'  ' | |1\| is not a white-space character<br>\|t\| is not a white-space character<br>\|        \| is a white-space character<br>\|  \| |
+| Input                | Output                                                                                                                                                      |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1<br>t<br>\t<br>'  ' | |1\| is not a white-space character<br>\|t\| is not a white-space character<br>\|        \| is a white-space character<br>\|  \| is a white-space character |
 
 | [Chạy thử]() |
 | ------------ |
@@ -281,9 +281,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input       | Output |
-| ----------- | ------ |
-| 4<br>Q<br>t |        |
+| Input       | Output                                                                                              |
+| ----------- | --------------------------------------------------------------------------------------------------- |
+| 4<br>Q<br>t | |4\| is not upperCase character<br>\|Q\| is upperCase character<br>\|t\| is not upperCase character |
 
 | [Chạy thử]() |
 | ------------ |
