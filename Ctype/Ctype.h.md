@@ -2,7 +2,7 @@
 
 ## 1. Hàm `isalnum `
 
-Hàm **void isalnum(int c)** kiểm tra xem ký tự đã truyền có phải là **ký tự - số** hay không.
+Hàm **kiểm tra xem ký tự đã truyền có phải là ký tự - số** hay không.
 
 ```c
 #include <stdio.h>
@@ -21,9 +21,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input               | Output                                                                                       |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| 2<br>d<br>\t<br>" " | is an alphanumeric<br>is an alphanumeric<br>is not an alphanumeric<br>is not an alphanumeric |
+| Input               | Output                                                                                                                    |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| 2<br>d<br>\t<br>" " | |2\| is an alphanumeric<br>\|d\| is an alphanumeric<br>\|        \|is not an alphanumeric<br>\|  \|is not an alphanumeric |
 
 | [Chạy thử]() |
 | ------------ |
@@ -42,18 +42,18 @@ int main(int argc, char const *argv[]){
        printf("Enter any key : ");
        c=getchar();
        if (isalnum(c)){
-           printf("is an alphabet");
+           printf("|%c| is an alphabet",c);
        }
        else{
-           printf("is not an alphabet");
+           printf("|%c| is not an alphabet",c);
        }
     return 0;
 }
 ```
 
-| Input               | Output                                                                        |
-| ------------------- | ----------------------------------------------------------------------------- |
-| 2<br>d<br>\t<br>" " | is an alphabet<br>is an alphabet<br>is not an alphanbet<br>is not an alphabet |
+| Input               | Output                                                                                                     |
+| ------------------- | ---------------------------------------------------------------------------------------------------------- |
+| 2<br>d<br>\t<br>" " | |2\| is an alphabet<br>\|d\| is an alphabet<br>\|        \|is not an alphanbet<br>\|  \|is not an alphabet |
 
 | [Chạy thử]() |
 | ------------ |
@@ -115,7 +115,7 @@ int main(int argc, char const *argv[]){
 
 | Input  | Output                              |
 | ------ | ----------------------------------- |
-| h<br>2 | |h\| is not digit<br>\|2\| is digit |
+| h<br>2 | |h\| is digit<br>\|2\| is not digit |
 
 | [Chạy thử]() |
 | ------------ |
@@ -141,9 +141,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input          | Output                                                                 |
-| -------------- | ---------------------------------------------------------------------- |
-| 3<br>h<br>'  ' | |3\| can be printed<br>\|h\| can be printed<br>\|  \| can't be printed |
+| Input          | Output |
+| -------------- | ------ |
+| 3<br>h<br>'  ' |        |
 
 | [Chạy thử]() |
 | ------------ |
@@ -169,9 +169,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input       | Output                                                                                          |
-| ----------- | ----------------------------------------------------------------------------------------------- |
-| a<br>Q<br>3 | |a\| is lowercase character<br>\|Q\| is not lowercase character<br>\|3\| is lowercase character |
+| Input       | Output |
+| ----------- | ------ |
+| a<br>Q<br>3 |        |
 
 | [Chạy thử]() |
 | ------------ |
@@ -197,9 +197,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input                 | Output                                                                                               |
-| --------------------- | ---------------------------------------------------------------------------------------------------- |
-| 3<br>k<br>' '<br>'\t' | |3\| can be printed<br>\|k\| can be printed<br>\| \| can be printed<br>\|        \| can't be printed |
+| Input                 | Output |
+| --------------------- | ------ |
+| 3<br>k<br>' '<br>'\t' |        |
 
 | [Chạy thử]() |
 | ------------ |
@@ -225,9 +225,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input                | Output                                                                                                                                              |
-| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| t<br>1<br>!<br>.<br> | |t\| is not a punctuation character<br>\|1\| is not a punctuation character<br>\|!\| is a punctuation character<br>\|.\| is a punctuation character |
+| Input                | Output |
+| -------------------- | ------ |
+| t<br>1<br>!<br>.<br> |        |
 
 | [Chạy thử]() |
 | ------------ |
@@ -253,9 +253,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input                | Output                                                                                                                                                      |
-| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1<br>t<br>\t<br>'  ' | |1\| is not a white-space character<br>\|t\| is not a white-space character<br>\|        \| is a white-space character<br>\|  \| is a white-space character |
+| Input                | Output |
+| -------------------- | ------ |
+| 1<br>t<br>\t<br>'  ' |        |
 
 | [Chạy thử]() |
 | ------------ |
@@ -281,9 +281,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input       | Output                                                                                              |
-| ----------- | --------------------------------------------------------------------------------------------------- |
-| 4<br>Q<br>t | |4\| is not upperCase character<br>\|Q\| is upperCase character<br>\|t\| is not upperCase character |
+| Input       | Output |
+| ----------- | ------ |
+| 4<br>Q<br>t |        |
 
 | [Chạy thử]() |
 | ------------ |
