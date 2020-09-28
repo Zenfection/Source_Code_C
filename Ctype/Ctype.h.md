@@ -225,9 +225,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input                | Output |
-| -------------------- | ------ |
-| t<br>1<br>!<br>.<br> |        |
+| Input                | Output                                                                                                                                              |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| t<br>1<br>!<br>.<br> | |t\| is not a punctuation character<br>\|1\| is not a punctuation character<br>\|!\| is a punctuation character<br>\|.\| is a punctuation character |
 
 | [Chạy thử]() |
 | ------------ |
