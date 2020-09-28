@@ -169,9 +169,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input       | Output |
-| ----------- | ------ |
-| a<br>Q<br>3 |        |
+| Input       | Output                                                                                              |
+| ----------- | --------------------------------------------------------------------------------------------------- |
+| a<br>Q<br>3 | |a\| is lowercase character<br>\|Q\| is not lowercase character<br>\|3\| is not lowercase character |
 
 | [Chạy thử]() |
 | ------------ |
