@@ -141,9 +141,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input          | Output |
-| -------------- | ------ |
-| 3<br>h<br>'  ' |        |
+| Input          | Output                                                                 |
+| -------------- | ---------------------------------------------------------------------- |
+| 3<br>h<br>'  ' | |3\| can be printed<br>\|h\| can be printed<br>\|  \| can't be printed |
 
 | [Chạy thử]() |
 | ------------ |
