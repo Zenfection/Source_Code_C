@@ -21,9 +21,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input               | Output                                                                                                                  |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| 2<br>d<br>\t<br>" " | |2\| is an alphanumeric<br>\|d\| is an alphanumeric<br>\|      \|is not an alphanumeric<br>\|  \|is not an alphanumeric |
+| Input               | Output                                                                                                             |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| 2<br>d<br>\t<br>" " | |2\| is an alphanumeric<br>\|d\| is an alphanumeric<br>\|\t\|is not an alphanumeric<br>\| \|is not an alphanumeric |
 
 | [Chạy thử]() |
 | ------------ |
