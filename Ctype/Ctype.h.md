@@ -253,9 +253,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input                | Output |
-| -------------------- | ------ |
-| 1<br>t<br>\t<br>'  ' |        |
+| Input                | Output                                                                                                                           |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| 1<br>t<br>\t<br>'  ' | |1\| is not a white-space character<br>\|t\| is not a white-space character<br>\|        \| is a white-space character<br>\|  \| |
 
 | [Chạy thử]() |
 | ------------ |
