@@ -1,6 +1,6 @@
 # Ctype.h
 
-## 1. Ví dụ hàm isalnum (isalnum() example)
+## 1. Hàm `isalnum `
 
 Hàm **void isalnum(int c)** kiểm tra xem ký tự đã truyền có phải là **ký tự - số** hay không.
 
@@ -27,7 +27,7 @@ int main(int argc, char const *argv[]){
 
 ---
 
-## 2. Ví dụ hàm isalpha (isalpha() example)
+## 2. hàm `isalpha`
 
 Hàm **void isalnum(int c)** kiểm tra xem ký tự đã truyền có phải là **ký tự** hay không
 
@@ -51,3 +51,135 @@ int main(int argc, char const *argv[]){
 | Input               | Output                                                                        |
 | ------------------- | ----------------------------------------------------------------------------- |
 | 2<br>d<br>\t<br>" " | is an alphabet<br>is an alphabet<br>is not an alphanbet<br>is not an alphabet |
+
+## 3. Hàm `iscntrl`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+## 4. Hàm `isdigit`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+## 5. Hàm `isgraph`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+## 6. Hàm `islower`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+## 7. Hàm `isprint`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+## 8. Hàm `ispunct`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+## 9. Hàm `isspace`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+## 10. Hàm `isupper`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+## 11. Hàm `isxdigit`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+## 12. Hàm `tolower`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
+
+## 13. Hàm `toupper`
+
+```c
+
+```
+
+| Input | Output |
+| ----- | ------ |
+|       |        |
+
+---
