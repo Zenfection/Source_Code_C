@@ -197,9 +197,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input                     | Output                                                                                                        |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| <br>3<br>k<br>' '<br>'\t' | <br>\|3\| can be printed<br>\|k\| can be printed<br>\|  \| can't  be printed<br>\|        \| can't be printed |
+| Input                     | Output                                                                                                     |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| <br>3<br>k<br>' '<br>'\t' | <br>\|3\| can be printed<br>\|k\| can be printed<br>\|  \| can be printed<br>\|        \| can't be printed |
 
 | [Chạy thử]() |
 | ------------ |
