@@ -104,13 +104,13 @@ int main(int argc, char const *argv[]){
 
 | Input  | Output                              |
 | ------ | ----------------------------------- |
-| h<br>2 | |h\| is digit<br>\|2\| is not digit |
+| h<br>2 | |h\| is not digit<br>\|2\| is digit |
 
 ---
 
 ## 5. Hàm `isgraph`
 
-Hàm **trả về giá trị khác 0** nếu *đối số* là một **ký tự graphical** (*có thể nhìn thấy*). Nếu không, **hàm trả về 0**.
+Hàm **kiểm tra ký tự graphical** hay không
 
 ```c
 #include <stdio.h>
@@ -135,6 +135,8 @@ int main(int argc, char const *argv[]){
 
 ## 6. Hàm `islower`
 
+Hàm **kiểm tra ký tự thường** hay không
+
 ```c
 #include <stdio.h>
 #include <ctype.h>
@@ -150,92 +152,186 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input       | Output                                                                                              |
-| ----------- | --------------------------------------------------------------------------------------------------- |
-| a<br>Q<br>3 | |a\| is lowercase character<br>\|Q\| is not lowercase character<br>\|3\| is not lowercase character |
+| Input       | Output                                                                                          |
+| ----------- | ----------------------------------------------------------------------------------------------- |
+| a<br>Q<br>3 | |a\| is lowercase character<br>\|Q\| is not lowercase character<br>\|3\| is lowercase character |
 
 ---
 
 ## 7. Hàm `isprint`
 
-```c
+Hàm kiểm tra *đối số* là **ký tự có thể in được** hay không. 
 
+```c
+#include<stdio.h>
+#include <ctype.h>
+int main(int argc, char const *argv[]){
+   char var;
+   printf("Enter the character : ");
+   var=getchar();
+   if(isprint(var))
+      printf("|%c| can be printed",var);
+   else
+      printf("|%c| can't be printed",var);
+   return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input                 | Output                                                                                               |
+| --------------------- | ---------------------------------------------------------------------------------------------------- |
+| 3<br>k<br>' '<br>'\t' | |3\| can be printed<br>\|k\| can be printed<br>\| \| can be printed<br>\|        \| can't be printed |
 
 ---
 
 ## 8. Hàm `ispunct`
 
-```c
+Hàm Kiểm **tra ký tự [punctuation](https://www.rung.vn/dict/en_vn/Punctuation_character)** 
 
+```c
+#include<stdio.h>
+#include <ctype.h>
+int main(int argc, char const *argv[]){
+   char var;
+   printf("Enter the character : ");
+   var=getchar();
+   if(ispunct(var))
+      printf("|%c| is a punctuation character",var);
+   else
+      printf("|%c| is not a punctuation character",var);
+   return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input                | Output                                                                                                                                              |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| t<br>1<br>!<br>.<br> | |t\| is not a punctuation character<br>\|1\| is not a punctuation character<br>\|!\| is a punctuation character<br>\|.\| is a punctuation character |
 
 ---
 
 ## 9. Hàm `isspace`
 
-```c
+Hàm **kiểm tra ký tự có phải là khoảng trắng** *(white-space)* hay không
 
+```c
+#include<stdio.h>
+#include <ctype.h>
+int main(int argc, char const *argv[]){
+   char var;
+   printf("Enter the character : ");
+   var=getchar();
+   if(isspace(var))
+      printf("|%c| is a white-space character",var);
+   else
+      printf("|%c| is not a white-space character",var);
+   return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input                | Output                                                                                                                                                      |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1<br>t<br>\t<br>'  ' | |1\| is not a white-space character<br>\|t\| is not a white-space character<br>\|        \| is a white-space character<br>\|  \| is a white-space character |
 
 ---
 
 ## 10. Hàm `isupper`
 
-```c
+Hàm **kiểm tra ký tự phải in hoa** hay không
 
+```c
+#include<stdio.h>
+#include <ctype.h>
+int main(int argc, char const *argv[]){
+   char var;
+   printf("Enter the character : ");
+   var=getchar();
+   if(isupper(var))
+      printf("|%c| is upperCase character",var);
+   else
+      printf("|%c| is not upperCase character",var);
+   return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input       | Output                                                                                              |
+| ----------- | --------------------------------------------------------------------------------------------------- |
+| 4<br>Q<br>t | |4\| is not upperCase character<br>\|Q\| is upperCase character<br>\|t\| is not upperCase character |
 
 ---
 
 ## 11. Hàm `isxdigit`
 
-```c
+Hàm **Kiểm tra ký tự có phải thập lục phân** hay không
 
+```c
+#include<stdio.h>
+#include <ctype.h>
+int main(int argc, char const *argv[]){
+   char var[10];
+   printf("Enter the character : ");
+   fgets(var,sizeof(var),stdin);
+   if(isxdigit(var[0])){
+      printf("%sis hexadecimal character",var);
+   }
+   else
+      printf("%sis not hexadecimal character",var);
+   return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input      | Output                                                               |
+| ---------- | -------------------------------------------------------------------- |
+| 0xE<br>zen | "0xE" is hexadecimal character<br>"zen" is not hexadecimal character |
 
 ---
 
 ## 12. Hàm `tolower`
 
-```c
+Hàm **chuyển đổi các chữ cái thành chữ in thường**
 
+```c
+#include<stdio.h>
+#include <ctype.h>
+int main(int argc, char const *argv[]){
+   char var[50];
+   printf("Enter the string : ");
+   fgets(var,sizeof(var),stdin);
+   int i=0;
+   while(var[i]) {
+      putchar(tolower(var[i]));
+      i++;
+   }
+   return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input      | Output     |
+| ---------- | ---------- |
+| ZENfection | zenfection |
 
 ---
 
 ## 13. Hàm `toupper`
 
-```c
+Hàm **chuyển đổi các chữ cái thành chữ in hoa**
 
+```c
+#include<stdio.h>
+#include <ctype.h>
+int main(int argc, char const *argv[]){
+   char var[50];
+   printf("Enter the string : ");
+   fgets(var,sizeof(var),stdin);
+   int i=0;
+   while(var[i]) {
+      putchar(toupper(var[i]));
+      i++;
+   }
+   return 0;
+}
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        |
+| Input      | Output     |
+| ---------- | ---------- |
+| ZENfection | ZENFECTION |
 
 ---
