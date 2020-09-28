@@ -25,6 +25,9 @@ int main(int argc, char const *argv[]){
 | ------------------- | -------------------------------------------------------------------------------------------- |
 | 2<br>d<br>\t<br>" " | is an alphanumeric<br>is an alphanumeric<br>is not an alphanumeric<br>is not an alphanumeric |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
 ## 2. hàm `isalpha`
@@ -51,6 +54,11 @@ int main(int argc, char const *argv[]){
 | Input               | Output                                                                        |
 | ------------------- | ----------------------------------------------------------------------------- |
 | 2<br>d<br>\t<br>" " | is an alphabet<br>is an alphabet<br>is not an alphanbet<br>is not an alphabet |
+
+| [Chạy thử]() |
+| ------------ |
+
+---
 
 ## 3. Hàm `iscntrl`
 
@@ -81,6 +89,9 @@ int main(int argc, char const *argv[]){
 | ----- | -------- |
 | none  | Learn by |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
 ## 4. Hàm `isdigit`
@@ -105,6 +116,9 @@ int main(int argc, char const *argv[]){
 | Input  | Output                              |
 | ------ | ----------------------------------- |
 | h<br>2 | |h\| is not digit<br>\|2\| is digit |
+
+| [Chạy thử]() |
+| ------------ |
 
 ---
 
@@ -131,6 +145,9 @@ int main(int argc, char const *argv[]){
 | -------------- | ---------------------------------------------------------------------- |
 | 3<br>h<br>'  ' | |3\| can be printed<br>\|h\| can be printed<br>\|  \| can't be printed |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
 ## 6. Hàm `islower`
@@ -155,6 +172,9 @@ int main(int argc, char const *argv[]){
 | Input       | Output                                                                                          |
 | ----------- | ----------------------------------------------------------------------------------------------- |
 | a<br>Q<br>3 | |a\| is lowercase character<br>\|Q\| is not lowercase character<br>\|3\| is lowercase character |
+
+| [Chạy thử]() |
+| ------------ |
 
 ---
 
@@ -181,6 +201,9 @@ int main(int argc, char const *argv[]){
 | --------------------- | ---------------------------------------------------------------------------------------------------- |
 | 3<br>k<br>' '<br>'\t' | |3\| can be printed<br>\|k\| can be printed<br>\| \| can be printed<br>\|        \| can't be printed |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
 ## 8. Hàm `ispunct`
@@ -205,6 +228,9 @@ int main(int argc, char const *argv[]){
 | Input                | Output                                                                                                                                              |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | t<br>1<br>!<br>.<br> | |t\| is not a punctuation character<br>\|1\| is not a punctuation character<br>\|!\| is a punctuation character<br>\|.\| is a punctuation character |
+
+| [Chạy thử]() |
+| ------------ |
 
 ---
 
@@ -231,6 +257,9 @@ int main(int argc, char const *argv[]){
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1<br>t<br>\t<br>'  ' | |1\| is not a white-space character<br>\|t\| is not a white-space character<br>\|        \| is a white-space character<br>\|  \| is a white-space character |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
 ## 10. Hàm `isupper`
@@ -255,6 +284,9 @@ int main(int argc, char const *argv[]){
 | Input       | Output                                                                                              |
 | ----------- | --------------------------------------------------------------------------------------------------- |
 | 4<br>Q<br>t | |4\| is not upperCase character<br>\|Q\| is upperCase character<br>\|t\| is not upperCase character |
+
+| [Chạy thử]() |
+| ------------ |
 
 ---
 
@@ -282,6 +314,9 @@ int main(int argc, char const *argv[]){
 | ---------- | -------------------------------------------------------------------- |
 | 0xE<br>zen | "0xE" is hexadecimal character<br>"zen" is not hexadecimal character |
 
+| [Chạy thử]() |
+| ------------ |
+
 ---
 
 ## 12. Hàm `tolower`
@@ -307,6 +342,9 @@ int main(int argc, char const *argv[]){
 | Input      | Output     |
 | ---------- | ---------- |
 | ZENfection | zenfection |
+
+| [Chạy thử]() |
+| ------------ |
 
 ---
 
@@ -334,4 +372,5 @@ int main(int argc, char const *argv[]){
 | ---------- | ---------- |
 | ZENfection | ZENFECTION |
 
----
+| [Chạy thử]() |
+| ------------ |
