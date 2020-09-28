@@ -115,7 +115,7 @@ int main(int argc, char const *argv[]){
 
 | Input      | Output                                   |
 | ---------- | ---------------------------------------- |
-| <br>h<br>2 | <br>\|h\| is digit<br>\|2\| is not digit |
+| <br>h<br>2 | <br>\|h\| is not digit<br>\|2\| is digit |
 
 | [Chạy thử]() |
 | ------------ |
