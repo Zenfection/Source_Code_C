@@ -12,10 +12,10 @@ int main(int argc, char const *argv[]){
        printf("Enter any key : ");
        c=getchar();
        if (isalnum(c)){
-           printf("%c is an alphanumeric",c);
+           printf("|%c| is an alphanumeric",c);
        }
        else{
-           printf("%c is not an alphanumeric",c);
+           printf("|%c| is not an alphanumeric",c);
        }
     return 0;
 }
