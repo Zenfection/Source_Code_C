@@ -21,9 +21,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input               | Output                                                                                                                  |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| 2<br>d<br>\t<br>" " | <br>\|2\| is an alphanumeric<br>\|d\| is an alphanumeric<br>\|\t\|is not an alphanumeric<br>\| \|is not an alphanumeric |
+| Input                   | Output                                                                                                                        |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| <br>2<br>d<br>\t<br>" " | <br>\|2\| is an alphanumeric<br>\|d\| is an alphanumeric<br>\|        \|is not an alphanumeric<br>\| \|is not an alphanumeric |
 
 | [Chạy thử]() |
 | ------------ |
@@ -51,9 +51,9 @@ int main(int argc, char const *argv[]){
 }
 ```
 
-| Input               | Output                                                                                                     |
-| ------------------- | ---------------------------------------------------------------------------------------------------------- |
-| 2<br>d<br>\t<br>" " | |2\| is an alphabet<br>\|d\| is an alphabet<br>\|        \|is not an alphanbet<br>\|  \|is not an alphabet |
+| Input                   | Output                                                                                                          |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------- |
+| <br>2<br>d<br>\t<br>" " | <br>\|2\| is an alphabet<br>\|d\| is an alphabet<br>\|        \|is not an alphanbet<br>\|  \|is not an alphabet |
 
 | [Chạy thử]() |
 | ------------ |
